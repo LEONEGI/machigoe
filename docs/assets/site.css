@@ -136,6 +136,15 @@ input.mg-search::placeholder { color: var(--faint); }
 .mg-band p { color: var(--dim); max-width: 40em; margin: 12px auto 26px; font-size: 15px; }
 .mg-ics-url { font-family: var(--mono); font-size: 12px; color: var(--faint); margin-top: 14px; word-break: break-all; }
 
+/* ---------- メール登録 ---------- */
+.mg-mailform { display: flex; gap: 10px; max-width: 520px; margin: 26px auto 0; }
+.mg-mailform input[type="email"] { flex: 1; min-height: 50px; background: rgba(10,16,30,.85); border: 1px solid var(--line); border-radius: 8px; color: var(--ink); font-family: var(--font); font-size: 15px; padding: 8px 16px; }
+.mg-mailform input[type="email"]::placeholder { color: var(--faint); }
+.mg-mailform input[type="email"]:focus { outline: 2px solid var(--cyan); outline-offset: 1px; }
+.mg-mail-note { font-size: 12px; color: var(--faint); margin-top: 12px; }
+.mg-mail-done { display: none; background: rgba(74,222,156,.1); border: 1px solid rgba(74,222,156,.4); color: var(--green); border-radius: 8px; padding: 14px 18px; max-width: 520px; margin: 26px auto 0; font-weight: 700; }
+@media (max-width: 560px) { .mg-mailform { flex-direction: column; } }
+
 /* ---------- 記事・下層ページ ---------- */
 .mg-page { padding: 72px 0 0; }
 .mg-page-head { margin-bottom: 40px; max-width: 46em; }

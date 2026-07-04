@@ -84,6 +84,22 @@
   </div>
 </section>
 
+<section id="mg-mail" style="text-align:center;">
+  <div class="mg-wrap">
+    <div class="mg-sec-head mg-rise" style="margin-bottom:0;">
+      <p class="mg-eyebrow">Weekly Digest</p>
+      <h2>毎週金曜、今週の締切をメールで。</h2>
+      <p style="margin-inline:auto;">登録はメールアドレスだけ。週1通、締切のダイジェストが届きます。解約はメール1通でいつでも。</p>
+    </div>
+    <form class="mg-mailform mg-rise mg-d1" id="mgMailForm" novalidate>
+      <input type="email" name="email" id="mgMailInput" placeholder="メールアドレス" required autocomplete="email" aria-label="メールアドレス">
+      <button class="mg-btn mg-primary" type="submit">無料で登録</button>
+    </form>
+    <div class="mg-mail-done" id="mgMailDone">登録ありがとうございます。次の金曜からダイジェストが届きます。</div>
+    <p class="mg-mail-note mg-rise mg-d2">広告や営業のメールは送りません。アドレスは配信以外に使いません。</p>
+  </div>
+</section>
+
 <section>
   <div class="mg-wrap">
     <div class="mg-sec-head mg-rise">
@@ -205,6 +221,23 @@
 
   document.getElementById("mgIcsBtn").href = "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(ICS_URL.replace(/^https:/, "webcal:"));
   document.getElementById("mgIcsUrl").textContent = ICS_URL;
+
+  /* メール登録（裏側はGoogleフォーム。訪問者には見えない） */
+  var MAIL_ACTION = "https://docs.google.com/forms/d/e/1FAIpQLScKxbJw8pVteyNaEJyf0Zh3H52SBqSVr35cFQMf9jUeNnMjWQ/formResponse";
+  var MAIL_ENTRY = "entry.72134992";
+  var mailForm = document.getElementById("mgMailForm");
+  mailForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var input = document.getElementById("mgMailInput");
+    var v = input.value.trim();
+    if (!v || v.indexOf("@") < 1) { input.focus(); return; }
+    var fd = new FormData();
+    fd.append(MAIL_ENTRY, v);
+    fetch(MAIL_ACTION, { method: "POST", mode: "no-cors", body: fd }).finally(function () {
+      mailForm.style.display = "none";
+      document.getElementById("mgMailDone").style.display = "block";
+    });
+  });
 
   document.querySelectorAll(".mg-kindbtn").forEach(function (b) {
     b.addEventListener("click", function () {
