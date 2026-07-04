@@ -974,162 +974,193 @@
    "name": "e-Gov パブリックコメント（国）",
    "area": "国",
    "last_success": "2026-07-05T00:42:48.341832+09:00",
-   "items_seen": 12
+   "items_seen": 12,
+   "fails": 1,
+   "last_error": "fetch failed: https://public-comment.e-gov.go.jp/rss/pcm_list.xml"
   },
   "nerima-juran": {
    "name": "練馬区 手続中の都市計画（縦覧・意見書）",
    "area": "練馬区",
-   "last_success": "2026-07-05T00:43:09.349728+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:08:08.690407+09:00",
    "items_seen": 13
   },
   "chiyoda-pubcome": {
    "name": "千代田区 パブリックコメント",
    "area": "千代田区",
-   "last_success": "2026-07-05T00:43:16.855001+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:08:13.126646+09:00",
    "items_seen": 4
   },
   "chuo-rss": {
    "name": "中央区 新着情報RSS",
    "area": "中央区",
-   "last_success": "2026-07-05T00:43:18.396931+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:08:16.014883+09:00",
    "items_seen": 0
   },
   "minato-pubcome": {
    "name": "港区 パブリックコメント",
    "area": "港区",
-   "last_success": "2026-07-05T00:43:24.397194+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:08:17.278422+09:00",
    "items_seen": 3
   },
   "minato-juran": {
    "name": "港区 都市計画案の縦覧",
    "area": "港区",
-   "last_success": "2026-07-05T00:43:37.973994+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:08:18.695096+09:00",
    "items_seen": 8
   },
   "shinjuku-pubcome": {
    "name": "新宿区 パブリックコメント募集一覧",
    "area": "新宿区",
    "last_success": "2026-07-05T00:43:39.442910+09:00",
-   "items_seen": 0
+   "items_seen": 0,
+   "fails": 1,
+   "last_error": "fetch failed: https://www.city.shinjuku.lg.jp/kusei/file14_01_00001.html"
   },
   "shinjuku-rss": {
    "name": "新宿区 新着情報RSS",
    "area": "新宿区",
    "last_success": "2026-07-05T00:43:40.823585+09:00",
-   "items_seen": 0
+   "items_seen": 0,
+   "fails": 1,
+   "last_error": "fetch failed: https://www.city.shinjuku.lg.jp/top_rss.rdf"
   },
   "bunkyo-pubcome": {
    "name": "文京区 パブリックコメント",
    "area": "文京区",
    "last_success": "2026-07-05T00:43:42.289457+09:00",
-   "items_seen": 0
+   "items_seen": 0,
+   "fails": 1,
+   "last_error": "fetch failed: https://city.bunkyo.lg.jp/kusejoho/koho/pabukome.html"
   },
   "shinagawa-pubcome": {
    "name": "品川区 パブリックコメント",
    "area": "品川区",
-   "last_success": "2026-07-05T00:43:48.385098+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:08:53.082985+09:00",
    "items_seen": 4
   },
   "meguro-pubcome": {
    "name": "目黒区 パブリックコメント",
    "area": "目黒区",
-   "last_success": "2026-07-05T00:43:57.438107+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:08:57.911048+09:00",
    "items_seen": 5
   },
   "ota-pubcome": {
    "name": "大田区 パブリックコメント",
    "area": "大田区",
-   "last_success": "2026-07-05T00:44:03.365171+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:09:00.572595+09:00",
    "items_seen": 3
   },
   "setagaya-pubcome": {
    "name": "世田谷区 パブリックコメント",
    "area": "世田谷区",
-   "last_success": "2026-07-05T00:44:10.829504+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:09:03.800045+09:00",
    "items_seen": 4
   },
   "shibuya-pubcome": {
    "name": "渋谷区 パブリックコメント",
    "area": "渋谷区",
-   "last_success": "2026-07-05T00:44:12.677105+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:09:04.945551+09:00",
    "items_seen": 0
   },
   "suginami-pubcome": {
    "name": "杉並区 パブリックコメント",
    "area": "杉並区",
-   "last_success": "2026-07-05T00:44:13.892326+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:09:07.334605+09:00",
    "items_seen": 0
   },
   "suginami-rss": {
    "name": "杉並区 新着情報RSS（区政情報）",
    "area": "杉並区",
-   "last_success": "2026-07-05T00:44:15.355731+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:09:08.289425+09:00",
    "items_seen": 0
   },
   "toshima-pubcome": {
    "name": "豊島区 パブリックコメント",
    "area": "豊島区",
-   "last_success": "2026-07-05T00:44:19.862797+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:09:10.852781+09:00",
    "items_seen": 2
   },
   "kita-pubcome": {
    "name": "北区 パブリックコメント",
    "area": "北区",
-   "last_success": "2026-07-05T00:44:30.386636+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:09:11.898604+09:00",
    "items_seen": 6
   },
   "arakawa-pubcome": {
    "name": "荒川区 パブリックコメント",
    "area": "荒川区",
-   "last_success": "2026-07-05T00:44:33.386101+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:09:14.389776+09:00",
    "items_seen": 1
   },
   "adachi-pubcome": {
    "name": "足立区 パブリックコメント",
    "area": "足立区",
-   "last_success": "2026-07-05T00:44:55.906719+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:09:17.577545+09:00",
    "items_seen": 19
   },
   "adachi-rss": {
    "name": "足立区 新着情報RSS",
    "area": "足立区",
-   "last_success": "2026-07-05T00:44:57.377352+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:09:18.553408+09:00",
    "items_seen": 0
   },
   "katsushika-pubcome": {
    "name": "葛飾区 パブリックコメント",
    "area": "葛飾区",
-   "last_success": "2026-07-05T00:44:58.964062+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:09:20.180836+09:00",
    "items_seen": 0
   },
   "edogawa-pubcome": {
    "name": "江戸川区 パブリックコメント",
    "area": "江戸川区",
-   "last_success": "2026-07-05T00:45:03.380672+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:09:23.183619+09:00",
    "items_seen": 3
   },
   "nerima-rss": {
    "name": "練馬区 新着情報RSS",
    "area": "練馬区",
-   "last_success": "2026-07-05T00:45:05.313501+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:09:25.528175+09:00",
    "items_seen": 0
   },
   "tokyo-pubcome": {
    "name": "東京都 意見募集",
    "area": "東京都",
-   "last_success": "2026-07-05T00:45:08.482871+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:09:26.475565+09:00",
    "items_seen": 1
   },
   "tokyo-juran": {
    "name": "東京都 縦覧中の都市計画の案",
    "area": "東京都",
-   "last_success": "2026-07-05T00:45:09.797430+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:09:28.441969+09:00",
    "items_seen": 0
   },
   "musashino-pubcome": {
    "name": "武蔵野市 パブリックコメント",
    "area": "武蔵野市",
-   "last_success": "2026-07-05T00:45:10.960852+09:00",
+   "fails": 0,
+   "last_success": "2026-07-05T02:09:29.490042+09:00",
    "items_seen": 0
   }
  }
