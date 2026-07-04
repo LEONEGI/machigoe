@@ -1,0 +1,43 @@
+name: crawl
+on:
+  schedule:
+    - cron: '0 21 * * *'  # 06:00 JST
+    - cron: '0 5 * * *'   # 14:00 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r crawler/requirements.txt
+      - run: python crawler/machigoe.py
+      - name: commit data
+        run: |
+          git config user.name "machigoe-bot"
+          git config user.email "watch@leb-plus.co.jp"
+          git add -A
+          git diff --cached --quiet || git commit -m "data update"
+          git push
+
+      # 3回連続で失敗しているソースがあればIssueを立てる（GitHubからメール通知が飛ぶ）。
+      # 既に同種のIssueが開いていれば重複させない
+      - name: alert on broken sources
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BAD=$(python -c "import json;print(len(json.load(open('docs/health.json'))['failing']))" 2>/dev/null || echo 0)
+          if [ "$BAD" != "0" ]; then
+            OPEN=$(gh issue list --state open --search "in:title ソース障害" --json number --jq length)
+            if [ "$OPEN" = "0" ]; then
+              gh issue create --title "🔧 ソース障害: ${BAD}件の修復が必要" \
+                --body "$(echo '自動検知: 3回以上連続で取得に失敗しているソースがあります。'; echo '```json'; cat docs/health.json; echo '```'; echo 'ローカルのメンテナンスAI（定期タスク）が次回実行時に修復を試みます。')"
+            fi
+          fi

@@ -1,0 +1,441 @@
+<!-- =====================================================
+  マチゴエ — パブコメ・縦覧カレンダー フロントエンド
+  WordPress HTMLウィジェット1回貼り用（Elementorキャンバス推奨）
+
+  設置:
+  1. 固定ページ（パーマリンク例: /machigoe/）を Elementorキャンバスで作成
+  2. HTMLウィジェットにこのファイルを丸ごと貼る
+  3. GitHub Pages 公開後、下のJS内 DATA_URL を実URLに書き換える
+     （書き換えるまでは内蔵のプレビューデータで動く）
+====================================================== -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+<div id="mg">
+<style>
+  #mg {
+    --mg-bg: #070b14;
+    --mg-bg2: #0b1120;
+    --mg-panel: rgba(17, 26, 45, .72);
+    --mg-line: rgba(96, 140, 200, .18);
+    --mg-ink: #e8eefb;
+    --mg-dim: #8fa3c2;
+    --mg-faint: #5a6d8c;
+    --mg-cyan: #46d5ff;
+    --mg-cyan-deep: #0e8ab8;
+    --mg-amber: #ffb454;
+    --mg-red: #ff6b6b;
+    --mg-green: #4ade9c;
+    --mg-font: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+    --mg-mono: "IBM Plex Mono", ui-monospace, monospace;
+    font-family: var(--mg-font);
+    background:
+      radial-gradient(1100px 500px at 78% -8%, rgba(28, 60, 110, .55), transparent 62%),
+      radial-gradient(900px 460px at 8% 30%, rgba(14, 90, 120, .28), transparent 60%),
+      linear-gradient(180deg, var(--mg-bg2), var(--mg-bg) 42%);
+    color: var(--mg-ink);
+    line-height: 1.8;
+    font-size: 16px;
+    overflow: clip;
+  }
+  #mg, #mg * { margin: 0; padding: 0; box-sizing: border-box; }
+  #mg a { color: var(--mg-cyan); text-decoration: none; }
+  #mg a:hover { text-decoration: underline; }
+  #mg .mg-wrap { max-width: 1080px; margin: 0 auto; padding-inline: 24px; }
+  #mg .mg-mono { font-family: var(--mg-mono); font-variant-numeric: tabular-nums; }
+
+  /* ---------- header ---------- */
+  #mg .mg-head { position: sticky; top: 0; z-index: 40; backdrop-filter: blur(10px); background: rgba(7, 11, 20, .7); border-bottom: 1px solid var(--mg-line); }
+  #mg .mg-head .mg-wrap { display: flex; align-items: center; justify-content: space-between; min-height: 62px; gap: 12px; }
+  #mg .mg-brand { display: flex; align-items: baseline; gap: 10px; color: var(--mg-ink); }
+  #mg .mg-brand .mg-logo { font-weight: 900; font-size: 21px; letter-spacing: .06em; }
+  #mg .mg-brand .mg-logo .mg-accent { color: var(--mg-cyan); }
+  #mg .mg-brand .mg-sub { font-size: 11px; color: var(--mg-faint); letter-spacing: .18em; }
+  #mg .mg-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 46px; padding: 9px 22px; border-radius: 8px; font-weight: 700; font-size: 14px; cursor: pointer; border: 1px solid transparent; transition: transform .18s, box-shadow .18s, background .18s; }
+  #mg .mg-btn.mg-primary { background: linear-gradient(135deg, #2fc7f5, #1795d8); color: #041018; box-shadow: 0 0 24px rgba(70, 213, 255, .25); }
+  #mg .mg-btn.mg-primary:hover { transform: translateY(-2px); box-shadow: 0 6px 32px rgba(70, 213, 255, .4); text-decoration: none; }
+  #mg .mg-btn.mg-ghost { background: transparent; color: var(--mg-ink); border-color: var(--mg-line); }
+  #mg .mg-btn.mg-ghost:hover { background: rgba(70,213,255,.08); text-decoration: none; }
+  #mg .mg-btn:focus-visible, #mg a:focus-visible { outline: 2px solid var(--mg-cyan); outline-offset: 3px; }
+
+  /* ---------- hero ---------- */
+  #mg .mg-hero { position: relative; padding: 108px 0 84px; overflow: hidden; }
+  #mg #mg-sky { position: absolute; inset: 0; width: 100%; height: 100%; }
+  #mg .mg-hero .mg-wrap { position: relative; }
+  #mg .mg-kicker { display: inline-flex; align-items: center; gap: 10px; font-family: var(--mg-mono); font-size: 12px; letter-spacing: .22em; color: var(--mg-cyan); text-transform: uppercase; }
+  #mg .mg-kicker::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--mg-cyan); box-shadow: 0 0 12px var(--mg-cyan); animation: mg-pulse 2.4s infinite; }
+  @keyframes mg-pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+  #mg .mg-hero h1 { font-size: clamp(34px, 6vw, 58px); font-weight: 900; line-height: 1.35; letter-spacing: .01em; margin: 20px 0 18px; text-wrap: balance; }
+  #mg .mg-hero h1 .mg-grad { background: linear-gradient(92deg, #6ee2ff, #46d5ff 45%, #9db8ff); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  #mg .mg-lead { max-width: 34em; color: var(--mg-dim); font-size: 16.5px; }
+  #mg .mg-cta-row { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 32px; align-items: center; }
+  #mg .mg-cta-note { font-size: 12.5px; color: var(--mg-faint); }
+
+  /* stats */
+  #mg .mg-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px; margin-top: 48px; perspective: 900px; }
+  #mg .mg-stat { background: var(--mg-panel); border: 1px solid var(--mg-line); border-radius: 12px; padding: 16px 18px 13px; backdrop-filter: blur(6px); transition: transform .25s ease-out, border-color .25s; will-change: transform; }
+  #mg .mg-stat:hover { border-color: rgba(70,213,255,.45); }
+  #mg .mg-stat .mg-num { font-family: var(--mg-mono); font-size: 30px; font-weight: 600; color: #fff; line-height: 1.2; }
+  #mg .mg-stat .mg-num .mg-unit { font-size: 14px; color: var(--mg-dim); margin-left: 2px; }
+  #mg .mg-stat .mg-label { font-size: 12px; color: var(--mg-faint); letter-spacing: .08em; margin-top: 2px; }
+  #mg .mg-stat.mg-hot .mg-num { color: var(--mg-amber); text-shadow: 0 0 18px rgba(255,180,84,.35); }
+
+  /* ---------- sections ---------- */
+  #mg section { padding: 72px 0; position: relative; }
+  #mg .mg-sec-head { margin-bottom: 34px; }
+  #mg .mg-eyebrow { font-family: var(--mg-mono); font-size: 11.5px; letter-spacing: .26em; color: var(--mg-cyan-deep); text-transform: uppercase; }
+  #mg .mg-sec-head h2 { font-size: clamp(24px, 3.4vw, 34px); font-weight: 900; margin-top: 8px; text-wrap: balance; }
+  #mg .mg-sec-head p { color: var(--mg-dim); margin-top: 10px; max-width: 44em; font-size: 15px; }
+
+  /* ---------- board ---------- */
+  #mg .mg-toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 20px; }
+  #mg .mg-kindbtn { min-height: 40px; padding: 6px 16px; border-radius: 999px; border: 1px solid var(--mg-line); background: transparent; color: var(--mg-dim); font-family: var(--mg-font); font-size: 13.5px; font-weight: 700; cursor: pointer; transition: all .18s; }
+  #mg .mg-kindbtn.mg-on { background: rgba(70,213,255,.14); border-color: rgba(70,213,255,.5); color: #d9f4ff; }
+  #mg select.mg-area, #mg input.mg-search { min-height: 40px; background: rgba(10,16,30,.8); border: 1px solid var(--mg-line); border-radius: 8px; color: var(--mg-ink); font-family: var(--mg-font); font-size: 14px; padding: 6px 12px; }
+  #mg input.mg-search { flex: 1; min-width: 160px; }
+  #mg input.mg-search::placeholder { color: var(--mg-faint); }
+  #mg .mg-fresh { font-family: var(--mg-mono); font-size: 11.5px; color: var(--mg-faint); margin-left: auto; }
+  #mg .mg-fresh .mg-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--mg-green); margin-right: 6px; box-shadow: 0 0 8px var(--mg-green); }
+  #mg .mg-fresh.mg-stale .mg-dot { background: var(--mg-amber); box-shadow: 0 0 8px var(--mg-amber); }
+
+  #mg .mg-list { display: grid; gap: 10px; }
+  #mg .mg-item { display: grid; grid-template-columns: 108px 1fr; gap: 16px; background: var(--mg-panel); border: 1px solid var(--mg-line); border-left: 3px solid var(--mg-faint); border-radius: 10px; padding: 15px 18px; transition: transform .18s ease-out, border-color .18s, background .18s; }
+  #mg .mg-item:hover { transform: translateX(4px); background: rgba(23, 34, 58, .85); border-left-color: var(--mg-cyan); }
+  #mg .mg-item.mg-d-red { border-left-color: var(--mg-red); }
+  #mg .mg-item.mg-d-amber { border-left-color: var(--mg-amber); }
+  #mg .mg-when { display: flex; flex-direction: column; justify-content: center; }
+  #mg .mg-when .mg-count { font-family: var(--mg-mono); font-weight: 600; font-size: 17px; line-height: 1.3; }
+  #mg .mg-d-red .mg-count { color: var(--mg-red); }
+  #mg .mg-d-amber .mg-count { color: var(--mg-amber); }
+  #mg .mg-when .mg-date { font-family: var(--mg-mono); font-size: 11.5px; color: var(--mg-faint); }
+  #mg .mg-when.mg-nodate .mg-count { font-size: 12.5px; color: var(--mg-faint); font-weight: 400; }
+  #mg .mg-body .mg-tags { display: flex; gap: 8px; margin-bottom: 4px; flex-wrap: wrap; }
+  #mg .mg-tag { font-size: 11px; font-weight: 700; letter-spacing: .06em; border-radius: 4px; padding: 1.5px 9px; }
+  #mg .mg-tag.mg-area-t { background: rgba(70,213,255,.12); color: #9ee6ff; border: 1px solid rgba(70,213,255,.25); }
+  #mg .mg-tag.mg-kind-p { background: rgba(157,184,255,.12); color: #b9ccff; border: 1px solid rgba(157,184,255,.25); }
+  #mg .mg-tag.mg-kind-j { background: rgba(74,222,156,.1); color: #8beebc; border: 1px solid rgba(74,222,156,.25); }
+  #mg .mg-body h3 { font-size: 15.5px; font-weight: 700; line-height: 1.6; }
+  #mg .mg-body h3 a { color: var(--mg-ink); }
+  #mg .mg-body h3 a:hover { color: #bdeeff; }
+  #mg .mg-more { text-align: center; margin-top: 22px; }
+  #mg .mg-empty { text-align: center; color: var(--mg-faint); padding: 40px 0; }
+  @media (max-width: 640px) {
+    #mg .mg-item { grid-template-columns: 1fr; gap: 6px; }
+    #mg .mg-when { flex-direction: row; gap: 10px; align-items: baseline; }
+  }
+
+  /* ---------- how ---------- */
+  #mg .mg-how { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  #mg .mg-step { background: var(--mg-panel); border: 1px solid var(--mg-line); border-radius: 12px; padding: 24px 22px; position: relative; overflow: hidden; }
+  #mg .mg-step::after { content: attr(data-n); position: absolute; right: 10px; top: -14px; font-family: var(--mg-mono); font-size: 74px; font-weight: 600; color: rgba(70,213,255,.08); }
+  #mg .mg-step h3 { font-size: 17px; font-weight: 700; margin-bottom: 8px; color: #d9f4ff; }
+  #mg .mg-step p { font-size: 13.5px; color: var(--mg-dim); }
+
+  /* ---------- subscribe band ---------- */
+  #mg .mg-band { border-block: 1px solid var(--mg-line); background: linear-gradient(180deg, rgba(14, 40, 70, .35), rgba(9, 16, 30, .1)); text-align: center; }
+  #mg .mg-band h2 { font-size: clamp(22px, 3vw, 30px); font-weight: 900; text-wrap: balance; }
+  #mg .mg-band p { color: var(--mg-dim); max-width: 40em; margin: 12px auto 26px; font-size: 15px; }
+  #mg .mg-band .mg-ics-url { font-family: var(--mg-mono); font-size: 12px; color: var(--mg-faint); margin-top: 14px; word-break: break-all; }
+
+  /* ---------- footer ---------- */
+  #mg .mg-foot { padding: 34px 0 46px; border-top: 1px solid var(--mg-line); font-size: 12.5px; color: var(--mg-faint); }
+  #mg .mg-foot a { color: var(--mg-dim); }
+  #mg .mg-foot .mg-legal { margin-top: 8px; font-size: 11.5px; }
+
+  /* ---------- motion（.mg-js が付いた時だけアニメ有効 = 白紙事故防止） ---------- */
+  @media (prefers-reduced-motion: no-preference) {
+    #mg.mg-js .mg-rise { opacity: 0; transform: translateY(20px); transition: opacity .55s ease-out, transform .55s ease-out; }
+    #mg.mg-js .mg-rise.mg-in { opacity: 1; transform: none; }
+    #mg.mg-js .mg-rise.mg-d1 { transition-delay: .08s; }
+    #mg.mg-js .mg-rise.mg-d2 { transition-delay: .16s; }
+  }
+</style>
+
+<header class="mg-head">
+  <div class="mg-wrap">
+    <a class="mg-brand" href="#mg">
+      <span class="mg-logo">マチゴエ<span class="mg-accent">▮</span></span>
+      <span class="mg-sub">PUBLIC COMMENT RADAR</span>
+    </a>
+    <a class="mg-btn mg-primary" href="#mg-subscribe">カレンダーに入れる</a>
+  </div>
+</header>
+
+<div class="mg-hero" id="mgHero">
+  <canvas id="mg-sky" aria-hidden="true"></canvas>
+  <div class="mg-wrap">
+    <p class="mg-kicker mg-rise">TOKYO ＋ 国 ／ LIVE MONITORING</p>
+    <h1 class="mg-rise mg-d1">街の決定は、決まる前に<br><span class="mg-grad">意見を言える。</span></h1>
+    <p class="mg-lead mg-rise mg-d2">パブリックコメントと都市計画の縦覧——役所が「いま意見を受け付けている案件」と締切を、国と東京の役所サイトから毎日自動収集して一覧にしています。気づいたときには終わっていた、を終わらせる無料サービスです。</p>
+    <div class="mg-cta-row mg-rise mg-d2">
+      <a class="mg-btn mg-primary" href="#mg-board">締切ボードを見る</a>
+      <a class="mg-btn mg-ghost" href="#mg-subscribe">Googleカレンダーで購読</a>
+      <span class="mg-cta-note">登録不要・無料・広告なし</span>
+    </div>
+    <div class="mg-stats" id="mgStats">
+      <div class="mg-stat mg-tilt"><div class="mg-num mg-mono" id="mgStatTotal">–</div><div class="mg-label">監視中の案件</div></div>
+      <div class="mg-stat mg-tilt mg-hot"><div class="mg-num mg-mono" id="mgStatSoon">–</div><div class="mg-label">7日以内に締切</div></div>
+      <div class="mg-stat mg-tilt"><div class="mg-num mg-mono" id="mgStatAreas">–</div><div class="mg-label">対応エリア</div></div>
+      <div class="mg-stat mg-tilt"><div class="mg-num mg-mono" id="mgStatNext">–</div><div class="mg-label">直近の締切</div></div>
+    </div>
+  </div>
+</div>
+
+<section id="mg-board">
+  <div class="mg-wrap">
+    <div class="mg-sec-head mg-rise">
+      <p class="mg-eyebrow">Deadline Board</p>
+      <h2>いま、意見を言える案件。</h2>
+      <p>締切が近い順。タイトルをクリックすると役所の原典ページに飛びます（内容の最終確認は必ず原典で）。</p>
+    </div>
+    <div class="mg-toolbar mg-rise">
+      <button class="mg-kindbtn mg-on" data-kind="all">すべて</button>
+      <button class="mg-kindbtn" data-kind="pubcome">パブコメ</button>
+      <button class="mg-kindbtn" data-kind="juran">縦覧・意見書</button>
+      <select class="mg-area" id="mgArea" aria-label="エリアで絞り込み"><option value="">全エリア</option></select>
+      <input class="mg-search" id="mgSearch" type="search" placeholder="キーワード（例: 公園、条例、再開発）">
+      <span class="mg-fresh" id="mgFresh"><span class="mg-dot"></span><span id="mgFreshText">–</span></span>
+    </div>
+    <div class="mg-list" id="mgList" aria-live="polite"></div>
+    <div class="mg-empty" id="mgEmpty" hidden>条件に合う案件はいまのところありません。</div>
+    <div class="mg-more"><button class="mg-btn mg-ghost" id="mgMore" hidden>さらに表示</button></div>
+  </div>
+</section>
+
+<section class="mg-band" id="mg-subscribe">
+  <div class="mg-wrap">
+    <h2 class="mg-rise">締切を、あなたのカレンダーに直接。</h2>
+    <p class="mg-rise mg-d1">下のURLをGoogleカレンダーの「URLで追加」に貼るだけ。以後、意見募集の締切が自動であなたの予定表に現れ続けます。ブックマークは忘れても、カレンダーは忘れません。</p>
+    <a class="mg-btn mg-primary mg-rise mg-d1" id="mgIcsBtn" href="#" target="_blank" rel="noopener">カレンダー購読を設定する</a>
+    <p class="mg-ics-url mg-rise mg-d2" id="mgIcsUrl"></p>
+  </div>
+</section>
+
+<section>
+  <div class="mg-wrap">
+    <div class="mg-sec-head mg-rise">
+      <p class="mg-eyebrow">How It Works</p>
+      <h2>仕組みはシンプルです。</h2>
+    </div>
+    <div class="mg-how">
+      <div class="mg-step mg-rise" data-n="01"><h3>毎日自動巡回</h3><p>国（e-Gov）と東京の自治体サイトの意見募集・縦覧ページを、プログラムが毎日巡回します。取得先はすべて役所の公式一次情報です。</p></div>
+      <div class="mg-step mg-rise mg-d1" data-n="02"><h3>締切を抽出</h3><p>案件ごとに募集締切を読み取り、締切が近い順のボードとカレンダー配信（ICS）に変換します。</p></div>
+      <div class="mg-step mg-rise mg-d2" data-n="03"><h3>あなたに届く</h3><p>このページを見るか、カレンダー購読をしておくだけ。「知らないうちに決まっていた」がなくなります。</p></div>
+    </div>
+  </div>
+</section>
+
+<div class="mg-foot">
+  <div class="mg-wrap">
+    運営: <a href="https://leb-plus.co.jp">ＬＥＢ ＰＬＵＳ合同会社</a>（東京都練馬区）｜間違いを見つけたら: <a href="mailto:watch@leb-plus.co.jp">watch@leb-plus.co.jp</a>｜対応エリアは順次拡大中（リクエストもメールでどうぞ）
+    <p class="mg-legal">本サービスは公開情報を機械収集・整理したものです。締切日は自動抽出のため、応募の際は必ずリンク先の原典でご確認ください。</p>
+  </div>
+</div>
+
+<script>
+(function () {
+  /* ====== 設定: GitHub Pages 公開後にここを書き換える ====== */
+  var DATA_URL = "";   // 例: "https://<user>.github.io/machigoe/data.json"
+  var ICS_URL  = "";   // 例: "https://<user>.github.io/machigoe/calendar.ics"
+
+  /* プレビュー用サンプル（2026-07-05時点の実データ抜粋。DATA_URL設定後は使われない） */
+  var SAMPLE = {
+    generated_at: new Date().toISOString(),
+    items: [
+      { area:"大田区", kind:"pubcome", deadline:"2026-07-06", url:"#", title:"大田区国民保護計画修正（素案）に関する区民意見公募手続の実施について" },
+      { area:"練馬区", kind:"juran", deadline:"2026-07-15", url:"#", title:"生産緑地地区の都市計画変更案の縦覧等について" },
+      { area:"国", kind:"pubcome", deadline:"2026-07-16", url:"#", title:"「ホットライン運用ガイドライン」の改定案に対する意見募集" },
+      { area:"千代田区", kind:"pubcome", deadline:"2026-07-22", url:"#", title:"和泉小学校・いずみこども園等施設と和泉公園との一体的整備基本計画（素案）に対する意見募集" },
+      { area:"大田区", kind:"pubcome", deadline:"2026-07-22", url:"#", title:"大田区産業のまちづくり条例の改正素案に関する区民意見公募手続の実施について" },
+      { area:"東京都", kind:"pubcome", deadline:"2026-07-31", url:"#", title:"河川整備計画（変更原案）についてご意見を募集します" },
+      { area:"国", kind:"pubcome", deadline:"2026-08-02", url:"#", title:"廃棄物の処理及び清掃に関する法律施行規則の一部を改正する省令案に対する意見の募集" },
+      { area:"国", kind:"pubcome", deadline:"2026-08-03", url:"#", title:"76GHz帯小電力ミリ波レーダーの高度化のための告示改正案に係る意見募集" }
+    ]
+  };
+
+  var mg = document.getElementById("mg");
+  var reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---------- データ描画 ---------- */
+  var state = { items: [], kind: "all", area: "", q: "", shown: 30 };
+
+  function daysLeft(iso) {
+    var d = new Date(iso + "T23:59:59+09:00");
+    return Math.ceil((d - new Date()) / 86400000);
+  }
+  function esc(s) { return s.replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+
+  function render() {
+    var list = document.getElementById("mgList");
+    var f = state.items.filter(function (it) {
+      if (state.kind !== "all" && it.kind !== state.kind && !(state.kind === "pubcome" && it.kind === "mixed")) return false;
+      if (state.area && it.area !== state.area) return false;
+      if (state.q && it.title.indexOf(state.q) === -1) return false;
+      if (it.deadline && daysLeft(it.deadline) < 0) return false;  // 締切済みは隠す
+      return true;
+    });
+    var html = "";
+    f.slice(0, state.shown).forEach(function (it) {
+      var cls = "", when, date = "";
+      if (it.deadline) {
+        var n = daysLeft(it.deadline);
+        cls = n <= 3 ? "mg-d-red" : (n <= 7 ? "mg-d-amber" : "");
+        when = n === 0 ? "本日締切" : "あと" + n + "日";
+        date = it.deadline.replace(/-/g, "/") + " 締切";
+      } else {
+        when = "締切情報なし";
+      }
+      html += '<div class="mg-item ' + cls + '">'
+        + '<div class="mg-when' + (it.deadline ? "" : " mg-nodate") + '"><span class="mg-count">' + when + '</span><span class="mg-date">' + date + '</span></div>'
+        + '<div class="mg-body"><div class="mg-tags">'
+        + '<span class="mg-tag mg-area-t">' + esc(it.area) + '</span>'
+        + '<span class="mg-tag ' + (it.kind === "juran" ? "mg-kind-j" : "mg-kind-p") + '">' + (it.kind === "juran" ? "縦覧・意見書" : "意見募集") + '</span>'
+        + '</div><h3><a href="' + esc(it.url) + '" target="_blank" rel="noopener">' + esc(it.title) + '</a></h3></div></div>';
+    });
+    list.innerHTML = html;
+    document.getElementById("mgEmpty").hidden = f.length > 0;
+    document.getElementById("mgMore").hidden = f.length <= state.shown;
+  }
+
+  function setStats(data) {
+    var items = data.items || [];
+    var live = items.filter(function (i) { return !i.deadline || daysLeft(i.deadline) >= 0; });
+    var withDl = live.filter(function (i) { return i.deadline; });
+    var soon = withDl.filter(function (i) { return daysLeft(i.deadline) <= 7; });
+    var areas = {};
+    live.forEach(function (i) { areas[i.area] = 1; });
+    document.getElementById("mgStatTotal").textContent = live.length;
+    document.getElementById("mgStatSoon").textContent = soon.length;
+    document.getElementById("mgStatAreas").textContent = Object.keys(areas).length;
+    var next = withDl.map(function (i) { return i.deadline; }).sort()[0];
+    document.getElementById("mgStatNext").textContent = next ? next.slice(5).replace("-", "/") : "–";
+    /* 鮮度表示（36時間で警告 = 自己修復の見える化） */
+    var gen = new Date(data.generated_at);
+    var hrs = Math.round((new Date() - gen) / 3600000);
+    var fresh = document.getElementById("mgFresh");
+    document.getElementById("mgFreshText").textContent = DATA_URL
+      ? "更新 " + (hrs <= 1 ? "1時間以内" : hrs + "時間前")
+      : "プレビューデータ表示中";
+    if (hrs > 36 && DATA_URL) fresh.classList.add("mg-stale");
+    /* エリアのプルダウン生成 */
+    var sel = document.getElementById("mgArea");
+    Object.keys(areas).sort().forEach(function (a) {
+      var o = document.createElement("option"); o.value = a; o.textContent = a; sel.appendChild(o);
+    });
+  }
+
+  function boot(data) {
+    state.items = data.items || [];
+    setStats(data);
+    render();
+  }
+
+  if (DATA_URL) {
+    fetch(DATA_URL).then(function (r) { return r.json(); }).then(boot).catch(function () { boot(SAMPLE); });
+  } else {
+    boot(SAMPLE);
+  }
+  var icsHref = ICS_URL || "#";
+  document.getElementById("mgIcsBtn").href = ICS_URL ? "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(ICS_URL.replace(/^https:/, "webcal:")) : "#";
+  document.getElementById("mgIcsUrl").textContent = ICS_URL ? ICS_URL : "（公開準備中: カレンダーURLはまもなくここに表示されます）";
+
+  /* ---------- フィルタ操作 ---------- */
+  document.querySelectorAll("#mg .mg-kindbtn").forEach(function (b) {
+    b.addEventListener("click", function () {
+      document.querySelectorAll("#mg .mg-kindbtn").forEach(function (x) { x.classList.remove("mg-on"); });
+      b.classList.add("mg-on");
+      state.kind = b.dataset.kind; state.shown = 30; render();
+    });
+  });
+  document.getElementById("mgArea").addEventListener("change", function (e) { state.area = e.target.value; render(); });
+  document.getElementById("mgSearch").addEventListener("input", function (e) { state.q = e.target.value.trim(); render(); });
+  document.getElementById("mgMore").addEventListener("click", function () { state.shown += 30; render(); });
+
+  /* ---------- モーション（安全設計: JS実行時のみ有効化） ---------- */
+  if (!reduce && "IntersectionObserver" in window) {
+    var items = mg.querySelectorAll(".mg-rise");
+    items.forEach(function (el) {
+      var r = el.getBoundingClientRect();
+      if (r.top < innerHeight && r.bottom > 0) el.classList.add("mg-in");
+    });
+    mg.classList.add("mg-js");
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("mg-in"); io.unobserve(e.target); } });
+    }, { threshold: 0.1 });
+    items.forEach(function (el) { if (!el.classList.contains("mg-in")) io.observe(el); });
+  }
+
+  /* 3Dチルト（統計カード） */
+  if (!reduce) {
+    document.querySelectorAll("#mg .mg-tilt").forEach(function (card) {
+      card.addEventListener("mousemove", function (e) {
+        var r = card.getBoundingClientRect();
+        var x = (e.clientX - r.left) / r.width - 0.5;
+        var y = (e.clientY - r.top) / r.height - 0.5;
+        card.style.transform = "rotateY(" + (x * 10) + "deg) rotateX(" + (-y * 10) + "deg) translateZ(4px)";
+      });
+      card.addEventListener("mouseleave", function () { card.style.transform = ""; });
+    });
+  }
+
+  /* ---------- 背景キャンバス: 街の光（生成ビジュアル・外部アセット不要） ---------- */
+  var canvas = document.getElementById("mg-sky");
+  if (canvas && !reduce) {
+    var ctx = canvas.getContext("2d");
+    var W, H, pts = [], mouseX = 0, mouseY = 0, scrollP = 0, running = true;
+    function resize() {
+      var hero = document.getElementById("mgHero");
+      W = canvas.width = hero.offsetWidth;
+      H = canvas.height = hero.offsetHeight;
+      pts = [];
+      var n = Math.min(150, Math.floor(W * H / 14000));
+      for (var i = 0; i < n; i++) {
+        pts.push({
+          x: Math.random() * W, y: Math.random() * H,
+          z: 0.3 + Math.random() * 0.7,                    // 奥行き（パララックス係数）
+          tw: Math.random() * Math.PI * 2,                  // 明滅位相
+          sp: 0.02 + Math.random() * 0.05
+        });
+      }
+    }
+    function draw(t) {
+      if (!running) return;
+      ctx.clearRect(0, 0, W, H);
+      /* 街区グリッド（薄く、マウスとスクロールでパララックス） */
+      var ox = mouseX * 14, oy = mouseY * 8 - scrollP * 0.15;
+      ctx.strokeStyle = "rgba(90, 140, 210, 0.07)";
+      ctx.lineWidth = 1;
+      var g = 72;
+      for (var x = (ox % g); x < W; x += g) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, H); ctx.stroke(); }
+      for (var y = (oy % g + g) % g; y < H; y += g) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke(); }
+      /* 光点（奥行きごとに動く速さと視差が違う） */
+      pts.forEach(function (p) {
+        p.tw += p.sp;
+        var a = 0.25 + 0.55 * Math.abs(Math.sin(p.tw));
+        var px = p.x + mouseX * 26 * p.z;
+        var py = p.y + (mouseY * 14 - scrollP * 0.3) * p.z;
+        py = ((py % H) + H) % H;
+        var r = 1.1 * p.z + (a > 0.7 ? 0.6 : 0);
+        ctx.beginPath();
+        ctx.fillStyle = a > 0.72 ? "rgba(110, 226, 255," + a * 0.9 + ")" : "rgba(150, 190, 240," + a * 0.5 + ")";
+        ctx.arc(px % W, py, r, 0, 6.283);
+        ctx.fill();
+      });
+      requestAnimationFrame(draw);
+    }
+    addEventListener("mousemove", function (e) {
+      mouseX = e.clientX / innerWidth - 0.5;
+      mouseY = e.clientY / innerHeight - 0.5;
+    }, { passive: true });
+    addEventListener("scroll", function () { scrollP = scrollY; }, { passive: true });
+    addEventListener("resize", resize);
+    document.addEventListener("visibilitychange", function () {
+      running = !document.hidden;
+      if (running) requestAnimationFrame(draw);
+    });
+    resize();
+    requestAnimationFrame(draw);
+  }
+})();
+</script>
+</div>

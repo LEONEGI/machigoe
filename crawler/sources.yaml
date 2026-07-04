@@ -1,0 +1,251 @@
+# マチゴエ 収集ソース定義（2026-07-05 調査エージェント確認済みURLベース）
+# type: rss | html_list　／ enabled: false は調査待ち・構造対応待ち
+# no_filter: ページ自体が募集一覧なのでキーワード選別を通さない
+# no_enrich: 詳細ページを取得しない（ボット遮断サイト。RSSのdescriptionから締切抽出）
+
+# ---------- 国 ----------
+- id: egov-pubcome
+  name: e-Gov パブリックコメント（国）
+  area: 国
+  kind: pubcome
+  type: rss
+  url: https://public-comment.e-gov.go.jp/rss/pcm_list.xml
+  no_filter: true
+  no_enrich: true   # /rss/ 以外は403。descriptionに「受付締切日時：YYYY/MM/DD hh:mm」が入る
+  note: RSS1.0(RDF)形式・直近12件のみ。1日2回巡回での取りこぼしリスクは許容（ops.md参照）
+
+# ---------- 練馬区（実在確認済み） ----------
+- id: nerima-juran
+  name: 練馬区 手続中の都市計画（縦覧・意見書）
+  area: 練馬区
+  kind: juran
+  type: html_list
+  url: https://www.city.nerima.tokyo.jp/kusei/machi/toshikeikakuzu/toshikeikaku/index.html
+  no_filter: true
+
+# ---------- 23区前半（2026-07-05 実在確認済み） ----------
+- id: chiyoda-pubcome
+  name: 千代田区 パブリックコメント
+  area: 千代田区
+  kind: pubcome
+  type: html_list
+  url: https://www.city.chiyoda.lg.jp/koho/kuse/sankaku-kyodo/p-comment/index.html
+
+- id: chuo-rss
+  name: 中央区 新着情報RSS
+  area: 中央区
+  kind: mixed
+  type: rss
+  url: https://www.city.chuo.lg.jp/shinchaku/shinchaku.xml
+
+- id: minato-pubcome
+  name: 港区 パブリックコメント
+  area: 港区
+  kind: pubcome
+  type: html_list
+  url: https://www.city.minato.tokyo.jp/kouchou/kuse/kocho/kuseiken/boshu.html
+
+- id: minato-juran
+  name: 港区 都市計画案の縦覧
+  area: 港区
+  kind: juran
+  type: html_list
+  url: https://www.city.minato.tokyo.jp/toshikeikaku/17jou_juran/zyuuran.html
+  no_filter: true
+
+- id: shinjuku-pubcome
+  name: 新宿区 パブリックコメント募集一覧
+  area: 新宿区
+  kind: pubcome
+  type: html_list
+  url: https://www.city.shinjuku.lg.jp/kusei/file14_01_00001.html
+
+- id: shinjuku-rss
+  name: 新宿区 新着情報RSS
+  area: 新宿区
+  kind: mixed
+  type: rss
+  url: https://www.city.shinjuku.lg.jp/top_rss.rdf
+
+- id: bunkyo-pubcome
+  name: 文京区 パブリックコメント
+  area: 文京区
+  kind: pubcome
+  type: html_list
+  url: https://city.bunkyo.lg.jp/kusejoho/koho/pabukome.html
+  note: wwwなしドメインが正（www付きは名前解決不可）
+
+- id: shinagawa-pubcome
+  name: 品川区 パブリックコメント
+  area: 品川区
+  kind: pubcome
+  type: html_list
+  url: https://www.city.shinagawa.tokyo.jp/PC/kuseizyoho/kuseizyoho-zyouhoukoukai/kuseizyoho-zyouhoukoukai-pabukome/index.html
+
+- id: meguro-pubcome
+  name: 目黒区 パブリックコメント
+  area: 目黒区
+  kind: pubcome
+  type: html_list
+  url: https://www.city.meguro.tokyo.jp/gyosei/hirakareta/public_comment/index.html
+
+- id: ota-pubcome
+  name: 大田区 パブリックコメント
+  area: 大田区
+  kind: pubcome
+  type: html_list
+  url: https://www.city.ota.tokyo.jp/kuseijoho/publiccomment/publiccomment_bosyu/index.html
+
+- id: setagaya-pubcome
+  name: 世田谷区 パブリックコメント
+  area: 世田谷区
+  kind: pubcome
+  type: html_list
+  url: https://www.city.setagaya.lg.jp/mokuji/kusei/006/002/d00009865.html
+
+# ---- 構造が年度別索引のため個別対応待ち（精度優先で無効化） ----
+- id: taito-pubcome
+  name: 台東区 パブリックコメント
+  area: 台東区
+  kind: pubcome
+  type: html_list
+  url: https://www.city.taito.lg.jp/kusei/sanka/publiccomment/index.html
+  enabled: false
+  note: 年度別ページへの索引構造。年度ページを直接ソースにする対応が必要
+
+- id: sumida-pubcome
+  name: 墨田区 パブリックコメント
+  area: 墨田区
+  kind: pubcome
+  type: html_list
+  url: https://www.city.sumida.lg.jp/iken_yobo/public_comment/index.html
+  enabled: false
+  note: 同上（年度別サブページ分散）
+
+- id: koto-pubcome
+  name: 江東区 パブリックコメント
+  area: 江東区
+  kind: pubcome
+  type: html_list
+  url: https://www.city.koto.lg.jp/kuse/kocho/paburikku/index.html
+  enabled: false
+  note: 同上（年度別リンク集）
+
+# ---------- 23区後半＋都＋近隣市（2026-07-05 実在確認済み） ----------
+- id: shibuya-pubcome
+  name: 渋谷区 パブリックコメント
+  area: 渋谷区
+  kind: pubcome
+  type: html_list
+  url: https://www.city.shibuya.tokyo.jp/kusei/shisaku/public-comment/
+
+- id: suginami-pubcome
+  name: 杉並区 パブリックコメント
+  area: 杉並区
+  kind: pubcome
+  type: html_list
+  url: https://www.city.suginami.tokyo.jp/s013/1310.html
+
+- id: suginami-rss
+  name: 杉並区 新着情報RSS（区政情報）
+  area: 杉並区
+  kind: mixed
+  type: rss
+  url: https://www.city.suginami.tokyo.jp/kusei/shinchaku/shinchaku.xml
+
+- id: toshima-pubcome
+  name: 豊島区 パブリックコメント
+  area: 豊島区
+  kind: pubcome
+  type: html_list
+  url: https://www.city.toshima.lg.jp/public1/index.html
+
+- id: kita-pubcome
+  name: 北区 パブリックコメント
+  area: 北区
+  kind: pubcome
+  type: html_list
+  url: https://www.city.kita.lg.jp/city-information/feedback/1014238/index.html
+
+- id: arakawa-pubcome
+  name: 荒川区 パブリックコメント
+  area: 荒川区
+  kind: pubcome
+  type: html_list
+  url: https://www.city.arakawa.tokyo.jp/kouhou/publiccomment/index.html
+
+- id: adachi-pubcome
+  name: 足立区 パブリックコメント
+  area: 足立区
+  kind: pubcome
+  type: html_list
+  url: https://www.city.adachi.tokyo.jp/ku/mado/p-comment/index.html
+
+- id: adachi-rss
+  name: 足立区 新着情報RSS
+  area: 足立区
+  kind: mixed
+  type: rss
+  url: https://www.city.adachi.tokyo.jp/shinchaku/shinchaku.xml
+
+- id: katsushika-pubcome
+  name: 葛飾区 パブリックコメント
+  area: 葛飾区
+  kind: pubcome
+  type: html_list
+  url: https://www.city.katsushika.lg.jp/opinions/1009924.html
+
+- id: edogawa-pubcome
+  name: 江戸川区 パブリックコメント
+  area: 江戸川区
+  kind: pubcome
+  type: html_list
+  url: https://www.city.edogawa.tokyo.jp/e001/kuseijoho/kohokocho/publiccomment/index.html
+
+- id: nerima-rss
+  name: 練馬区 新着情報RSS
+  area: 練馬区
+  kind: mixed
+  type: rss
+  url: https://www.city.nerima.tokyo.jp/rss_news.xml
+
+- id: tokyo-pubcome
+  name: 東京都 意見募集
+  area: 東京都
+  kind: pubcome
+  type: html_list
+  url: https://www.metro.tokyo.lg.jp/purpose/opinion
+
+- id: tokyo-juran
+  name: 東京都 縦覧中の都市計画の案
+  area: 東京都
+  kind: juran
+  type: html_list
+  url: https://www.toshiseibi.metro.tokyo.lg.jp/basic/singikai/aramashi/jouhou_ichiran
+  no_filter: true
+
+- id: musashino-pubcome
+  name: 武蔵野市 パブリックコメント
+  area: 武蔵野市
+  kind: pubcome
+  type: html_list
+  url: https://www.city.musashino.lg.jp/shiseijoho/ikenboshu_enquete/public_comment/index.html
+
+# ---- 個別対応待ち（無効） ----
+- id: nakano-pubcome
+  name: 中野区 パブリックコメント
+  area: 中野区
+  kind: pubcome
+  type: html_list
+  url: https://www.city.tokyo-nakano.lg.jp/kusei/public/tetsuzuki/kekka/index.html
+  enabled: false
+  note: 確認できたのは結果公表ページのみ（過去案件で汚染される）。募集中一覧の特定待ち
+
+- id: nishitokyo-pubcome
+  name: 西東京市 パブリックコメント
+  area: 西東京市
+  kind: pubcome
+  type: html_list
+  url: https://www.city.nishitokyo.lg.jp/siseizyoho/pub/index.html
+  enabled: false
+  note: 年度別索引構造。年度ページの直接ソース化が必要
