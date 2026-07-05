@@ -12,7 +12,10 @@
   url: https://public-comment.e-gov.go.jp/rss/pcm_list.xml
   no_filter: true
   no_enrich: true   # /rss/ 以外は403。descriptionに「受付締切日時：YYYY/MM/DD hh:mm」が入る
-  note: RSS1.0(RDF)形式・直近12件のみ。1日2回巡回での取りこぼしリスクは許容（ops.md参照）
+  note: >-
+    RSS1.0(RDF)形式・直近12件のみ。【2026-07-06確認】e-Govは海外IPを遮断しており
+    GitHub Actionsからは取得不可（fails計上は正常動作）。毎朝のローカル実行（日本IP）が
+    このソースの収集経路。壊れ扱いにしないこと
 
 # ---------- 練馬区（実在確認済み） ----------
 - id: nerima-juran
@@ -73,7 +76,9 @@
   kind: pubcome
   type: html_list
   url: https://city.bunkyo.lg.jp/kusejoho/koho/pabukome.html
-  note: wwwなしドメインが正（www付きは名前解決不可）
+  note: >-
+    【2026-07-06】DNS解決が環境依存で不安定（Google DNSでは解決可、一部リゾルバで失敗）。
+    Actionsからも失敗が続く場合は海外IP遮断の疑い。ローカル毎朝実行での収集を正とする
 
 - id: shinagawa-pubcome
   name: 品川区 パブリックコメント
