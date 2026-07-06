@@ -5,7 +5,7 @@ X-WR-CALNAME:マチゴエ｜パブコメ・縦覧の締切
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
 UID:12f01a10af9db8bf@machigoe
-DTSTAMP:20260706T090332Z
+DTSTAMP:20260706T221537Z
 DTSTART;VALUE=DATE:20260706
 SUMMARY:【締切】大田区国民保護計画修正（素案）に関する大田区区民意見公募手続（パブリックコメント）の実施について（大田区）
 DESCRIPTION:https://www.city.ota.tokyo.jp/kuseijoho/publiccomment/publiccomment_bosyu/kokuminhogo_goiken.html
@@ -13,7 +13,7 @@ URL:https://www.city.ota.tokyo.jp/kuseijoho/publiccomment/publiccomment_bosyu/ko
 END:VEVENT
 BEGIN:VEVENT
 UID:381a3033b5a766df@machigoe
-DTSTAMP:20260706T090332Z
+DTSTAMP:20260706T221537Z
 DTSTART;VALUE=DATE:20260715
 SUMMARY:【締切】生産緑地地区の都市計画変更案の縦覧等について（練馬区）
 DESCRIPTION:https://www.city.nerima.tokyo.jp/kusei/machi/toshikeikakuzu/toshikeikaku/r8_seisan_an.html
@@ -21,7 +21,7 @@ URL:https://www.city.nerima.tokyo.jp/kusei/machi/toshikeikakuzu/toshikeikaku/r8_
 END:VEVENT
 BEGIN:VEVENT
 UID:3a8c7ef47b10a1d3@machigoe
-DTSTAMP:20260706T090332Z
+DTSTAMP:20260706T221537Z
 DTSTART;VALUE=DATE:20260716
 SUMMARY:【締切】インターネット・ホットラインセンターにおける「ホットライン運用ガイドライン」の改定案に対する意見募集について（国）
 DESCRIPTION:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=120260018&Mode=0
@@ -29,7 +29,7 @@ URL:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=
 END:VEVENT
 BEGIN:VEVENT
 UID:0ee9ce1e5ccc9afc@machigoe
-DTSTAMP:20260706T090332Z
+DTSTAMP:20260706T221537Z
 DTSTART;VALUE=DATE:20260716
 SUMMARY:【締切】「特定電気通信による情報の流通によって発生する権利侵害等への対処に関する法律第26条に関するガイドライン」（改定案）につ（国）
 DESCRIPTION:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210737&Mode=0
@@ -37,7 +37,7 @@ URL:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=
 END:VEVENT
 BEGIN:VEVENT
 UID:32d6e02976cb5587@machigoe
-DTSTAMP:20260706T090332Z
+DTSTAMP:20260706T221537Z
 DTSTART;VALUE=DATE:20260722
 SUMMARY:【締切】和泉小学校・いずみこども園等施設と和泉公園との一体的整備基本計画（素案）に対する意見募集（千代田区）
 DESCRIPTION:https://www.city.chiyoda.lg.jp/koho/kuse/sankaku-kyodo/p-comment/2026/20260706.html
@@ -45,7 +45,7 @@ URL:https://www.city.chiyoda.lg.jp/koho/kuse/sankaku-kyodo/p-comment/2026/202607
 END:VEVENT
 BEGIN:VEVENT
 UID:547b9e4299d6f8e6@machigoe
-DTSTAMP:20260706T090332Z
+DTSTAMP:20260706T221537Z
 DTSTART;VALUE=DATE:20260722
 SUMMARY:【締切】大田区産業のまちづくり条例の改正素案に関する区民意見公募手続（パブリックコメント）の実施について（大田区）
 DESCRIPTION:https://www.city.ota.tokyo.jp/kuseijoho/publiccomment/publiccomment_bosyu/sangyo-machi-jyourei-kaisei.html
@@ -53,7 +53,7 @@ URL:https://www.city.ota.tokyo.jp/kuseijoho/publiccomment/publiccomment_bosyu/sa
 END:VEVENT
 BEGIN:VEVENT
 UID:d2017b1fe2c0754d@machigoe
-DTSTAMP:20260706T090332Z
+DTSTAMP:20260706T221537Z
 DTSTART;VALUE=DATE:20260801
 SUMMARY:【締切】「生物学的製剤基準の一部を改正する件（案）」に関する御意見の募集について（国）
 DESCRIPTION:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260100&Mode=0
@@ -61,7 +61,7 @@ URL:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=
 END:VEVENT
 BEGIN:VEVENT
 UID:b65673405a702719@machigoe
-DTSTAMP:20260706T090332Z
+DTSTAMP:20260706T221537Z
 DTSTART;VALUE=DATE:20260802
 SUMMARY:【締切】令和８年度国指定鳥獣保護区の変更等に関する意見の募集（パブリック・コメント）について（国）
 DESCRIPTION:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=195260024&Mode=0
@@ -69,7 +69,7 @@ URL:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=
 END:VEVENT
 BEGIN:VEVENT
 UID:b01a02cf947a968c@machigoe
-DTSTAMP:20260706T090332Z
+DTSTAMP:20260706T221537Z
 DTSTART;VALUE=DATE:20260802
 SUMMARY:【締切】「重要電子計算機に対する不正な行為による被害の防止に関する法律に基づく特別社会基盤事業者による特定侵害事象等の報告等に関（国）
 DESCRIPTION:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=095260660&Mode=0
@@ -77,7 +77,7 @@ URL:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=
 END:VEVENT
 BEGIN:VEVENT
 UID:e1448745d60c6e47@machigoe
-DTSTAMP:20260706T090332Z
+DTSTAMP:20260706T221537Z
 DTSTART;VALUE=DATE:20260802
 SUMMARY:【締切】廃棄物の処理及び清掃に関する法律施行規則の一部を改正する省令案に対する意見の募集（パブリックコメント）について（国）
 DESCRIPTION:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=195260038&Mode=0
@@ -85,7 +85,7 @@ URL:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=
 END:VEVENT
 BEGIN:VEVENT
 UID:464ba015a8dbf07c@machigoe
-DTSTAMP:20260706T090332Z
+DTSTAMP:20260706T221537Z
 DTSTART;VALUE=DATE:20260802
 SUMMARY:【締切】外国為替及び外国貿易法の一部を改正する法律の施行に伴う関係政令の整備等に関する政令（案）等に対する意見募集（国）
 DESCRIPTION:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=395122514&Mode=0
@@ -93,7 +93,7 @@ URL:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=
 END:VEVENT
 BEGIN:VEVENT
 UID:c906245f826683ca@machigoe
-DTSTAMP:20260706T090332Z
+DTSTAMP:20260706T221537Z
 DTSTART;VALUE=DATE:20260802
 SUMMARY:【締切】医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律第四十三条第一項の規定に基づき検査を要するものとして厚生労（国）
 DESCRIPTION:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260102&Mode=0
@@ -101,7 +101,7 @@ URL:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=
 END:VEVENT
 BEGIN:VEVENT
 UID:e55396b0c6914d19@machigoe
-DTSTAMP:20260706T090332Z
+DTSTAMP:20260706T221537Z
 DTSTART;VALUE=DATE:20260802
 SUMMARY:【締切】医師法施行規則等の一部を改正する省令案に関する御意見の募集について（国）
 DESCRIPTION:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260103&Mode=0
@@ -109,7 +109,7 @@ URL:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=
 END:VEVENT
 BEGIN:VEVENT
 UID:7ac5e7419bc82c49@machigoe
-DTSTAMP:20260706T090332Z
+DTSTAMP:20260706T221537Z
 DTSTART;VALUE=DATE:20260803
 SUMMARY:【締切】76GHz帯小電力ミリ波レーダーの高度化のための告示改正案に係る意見募集（国）
 DESCRIPTION:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210739&Mode=0
@@ -117,7 +117,7 @@ URL:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=
 END:VEVENT
 BEGIN:VEVENT
 UID:fdee4450b76a9226@machigoe
-DTSTAMP:20260706T090332Z
+DTSTAMP:20260706T221537Z
 DTSTART;VALUE=DATE:20260803
 SUMMARY:【締切】「出入国管理及び難民認定法施行令及び日本国との平和条約に基づき日本の国籍を離脱した者等の出入国管理に関する特例法施行令の（国）
 DESCRIPTION:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=315000136&Mode=0
@@ -125,7 +125,7 @@ URL:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=
 END:VEVENT
 BEGIN:VEVENT
 UID:b5896848e6e4ac42@machigoe
-DTSTAMP:20260706T090332Z
+DTSTAMP:20260706T221537Z
 DTSTART;VALUE=DATE:20260803
 SUMMARY:【締切】「在留許可手数料の減額対象者のガイドライン（案）」に係る意見募集について（国）
 DESCRIPTION:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=315000137&Mode=0

@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-07-06T18:03:32.410175+09:00",
+ "generated_at": "2026-07-07T07:15:37.843001+09:00",
  "failing": [
   {
    "id": "egov-pubcome",
    "name": "e-Gov パブリックコメント（国）",
    "area": "国",
-   "fails": 5,
+   "fails": 6,
    "last_error": "fetch failed: https://public-comment.e-gov.go.jp/rss/pcm_list.xml",
    "last_success": "2026-07-05T00:42:48.341832+09:00"
   },
@@ -13,7 +13,7 @@
    "id": "bunkyo-pubcome",
    "name": "文京区 パブリックコメント",
    "area": "文京区",
-   "fails": 5,
+   "fails": 6,
    "last_error": "fetch failed: https://city.bunkyo.lg.jp/kusejoho/koho/pabukome.html",
    "last_success": "2026-07-05T00:43:42.289457+09:00"
   }
