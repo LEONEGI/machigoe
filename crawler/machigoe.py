@@ -262,7 +262,16 @@ def write_ics(items: list[dict]) -> None:
 def main() -> int:
     today = datetime.now(JST).date()
     sources = yaml.safe_load(SOURCES_FILE.read_text(encoding="utf-8"))
-    state = json.loads(STATE_FILE.read_text(encoding="utf-8")) if STATE_FILE.exists() else {"items": {}, "sources": {}}
+    # stateが壊れていても（gitコンフリクト残骸・部分書き込み等）実行を止めない。
+    # 壊れたファイルは退避して空のstateから再構築する（アイテムは各ソースから再収集される）
+    state = {"items": {}, "sources": {}}
+    if STATE_FILE.exists():
+        try:
+            state = json.loads(STATE_FILE.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, UnicodeDecodeError) as e:
+            broken = STATE_FILE.with_suffix(f".broken-{datetime.now(JST):%Y%m%d%H%M}.json")
+            STATE_FILE.rename(broken)
+            print(f"[WARN] state.json が壊れていたため退避して再構築: {broken.name} ({e})")
     items_state: dict = state["items"]
     src_state: dict = state["sources"]
 
