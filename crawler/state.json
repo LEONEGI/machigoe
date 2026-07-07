@@ -9,7 +9,7 @@
    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210739&Mode=0",
    "deadline": "2026-08-03",
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-05"
+   "last_seen": "2026-07-07"
   },
   "b65673405a702719": {
    "id": "b65673405a702719",
@@ -20,7 +20,7 @@
    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=195260024&Mode=0",
    "deadline": "2026-08-02",
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-05"
+   "last_seen": "2026-07-07"
   },
   "b01a02cf947a968c": {
    "id": "b01a02cf947a968c",
@@ -31,7 +31,7 @@
    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=095260660&Mode=0",
    "deadline": "2026-08-02",
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-05"
+   "last_seen": "2026-07-07"
   },
   "fdee4450b76a9226": {
    "id": "fdee4450b76a9226",
@@ -42,7 +42,7 @@
    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=315000136&Mode=0",
    "deadline": "2026-08-03",
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-05"
+   "last_seen": "2026-07-07"
   },
   "3a8c7ef47b10a1d3": {
    "id": "3a8c7ef47b10a1d3",
@@ -53,7 +53,7 @@
    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=120260018&Mode=0",
    "deadline": "2026-07-16",
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-05"
+   "last_seen": "2026-07-07"
   },
   "b5896848e6e4ac42": {
    "id": "b5896848e6e4ac42",
@@ -64,7 +64,7 @@
    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=315000137&Mode=0",
    "deadline": "2026-08-03",
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-05"
+   "last_seen": "2026-07-07"
   },
   "e1448745d60c6e47": {
    "id": "e1448745d60c6e47",
@@ -75,7 +75,7 @@
    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=195260038&Mode=0",
    "deadline": "2026-08-02",
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-05"
+   "last_seen": "2026-07-07"
   },
   "0ee9ce1e5ccc9afc": {
    "id": "0ee9ce1e5ccc9afc",
@@ -86,7 +86,7 @@
    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210737&Mode=0",
    "deadline": "2026-07-16",
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-05"
+   "last_seen": "2026-07-07"
   },
   "464ba015a8dbf07c": {
    "id": "464ba015a8dbf07c",
@@ -97,7 +97,7 @@
    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=395122514&Mode=0",
    "deadline": "2026-08-02",
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-05"
+   "last_seen": "2026-07-07"
   },
   "c906245f826683ca": {
    "id": "c906245f826683ca",
@@ -108,7 +108,7 @@
    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260102&Mode=0",
    "deadline": "2026-08-02",
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-05"
+   "last_seen": "2026-07-07"
   },
   "e55396b0c6914d19": {
    "id": "e55396b0c6914d19",
@@ -119,7 +119,7 @@
    "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260103&Mode=0",
    "deadline": "2026-08-02",
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-05"
+   "last_seen": "2026-07-07"
   },
   "d2017b1fe2c0754d": {
    "id": "d2017b1fe2c0754d",
@@ -967,198 +967,519 @@
    "deadline": null,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-07"
+  },
+  "458564cb2f4aa1a2": {
+   "id": "458564cb2f4aa1a2",
+   "source": "egov-pubcome",
+   "area": "国",
+   "kind": "pubcome",
+   "title": "環境省関係浄化槽法施行規則の一部を改正する省令（案）に対する意見募集（パブリックコメント）について",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=195260039&Mode=0",
+   "deadline": "2026-08-05",
+   "first_seen": "2026-07-07",
+   "last_seen": "2026-07-07"
+  },
+  "f7b8ea6830c99a39": {
+   "id": "f7b8ea6830c99a39",
+   "source": "egov-pubcome",
+   "area": "国",
+   "kind": "pubcome",
+   "title": "車道及び側帯の舗装の構造の基準に関する省令の全部を改正する省令案に関するパブリックコメントの募集について",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260604&Mode=0",
+   "deadline": "2026-08-05",
+   "first_seen": "2026-07-07",
+   "last_seen": "2026-07-07"
+  },
+  "01060388d11c553e": {
+   "id": "01060388d11c553e",
+   "source": "egov-pubcome",
+   "area": "国",
+   "kind": "pubcome",
+   "title": "電気事業法施行規則第五十二条の二第一号ロの要件、第一号ハ及び第二号ロの機械器具並びに第一号ニ及び第二号ハの算定方法等並びに第五十三条第二項第五号の頻度に関する告示の一部改正（案）に対する意見公募",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595126108&Mode=0",
+   "deadline": "2026-08-05",
+   "first_seen": "2026-07-07",
+   "last_seen": "2026-07-07"
+  },
+  "84e2342730e6ae43": {
+   "id": "84e2342730e6ae43",
+   "source": "egov-pubcome",
+   "area": "国",
+   "kind": "pubcome",
+   "title": "「部品等脱落防止措置に関する技術基準細則」の一部改正に関する意見募集について",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155261221&Mode=0",
+   "deadline": "2026-08-07",
+   "first_seen": "2026-07-07",
+   "last_seen": "2026-07-07"
+  },
+  "bc85d3dbbb0be7a9": {
+   "id": "bc85d3dbbb0be7a9",
+   "source": "bunkyo-pubcome",
+   "area": "文京区",
+   "kind": "pubcome",
+   "title": "パブリックコメント手続",
+   "url": "https://www.city.bunkyo.lg.jp/kuseijouhou/kouhou/publiccomment/index.html",
+   "deadline": null,
+   "first_seen": "2026-07-07",
+   "last_seen": "2026-07-07"
+  },
+  "2a66dae819fe9bd2": {
+   "id": "2a66dae819fe9bd2",
+   "source": "bunkyo-pubcome",
+   "area": "文京区",
+   "kind": "pubcome",
+   "title": "文京区のパブリックコメント（意見公募手続）制度の概要",
+   "url": "https://www.city.bunkyo.lg.jp/b003/p006166.html",
+   "deadline": null,
+   "first_seen": "2026-07-07",
+   "last_seen": "2026-07-07"
+  },
+  "b49353dad0077963": {
+   "id": "b49353dad0077963",
+   "source": "bunkyo-pubcome",
+   "area": "文京区",
+   "kind": "pubcome",
+   "title": "「文京区立中学校部活動地域移行実施計画2026（素案）」についての意見募集",
+   "url": "https://www.city.bunkyo.lg.jp/b049/p006593.html",
+   "deadline": null,
+   "first_seen": "2026-07-07",
+   "last_seen": "2026-07-07"
+  },
+  "6582b9e8eb9a484b": {
+   "id": "6582b9e8eb9a484b",
+   "source": "bunkyo-pubcome",
+   "area": "文京区",
+   "kind": "pubcome",
+   "title": "「文京区一般廃棄物処理基本計画（モノ・プラン文京）中間年度見直し版（素案）」についての意見募集",
+   "url": "https://www.city.bunkyo.lg.jp/b038/p000989/p000002.html",
+   "deadline": null,
+   "first_seen": "2026-07-07",
+   "last_seen": "2026-07-07"
+  },
+  "228d8b87bd9d9fcf": {
+   "id": "228d8b87bd9d9fcf",
+   "source": "bunkyo-pubcome",
+   "area": "文京区",
+   "kind": "pubcome",
+   "title": "「（仮称）文京区こどもの権利に関する条例（素案）」についての意見募集",
+   "url": "https://www.city.bunkyo.lg.jp/b093/p007798.html",
+   "deadline": "2026-07-27",
+   "first_seen": "2026-07-07",
+   "last_seen": "2026-07-07"
+  },
+  "54f2d9bdbcd952c5": {
+   "id": "54f2d9bdbcd952c5",
+   "source": "bunkyo-pubcome",
+   "area": "文京区",
+   "kind": "pubcome",
+   "title": "「文京区子ども読書活動推進計画（素案）」についての意見募集",
+   "url": "https://www.city.bunkyo.lg.jp/b052/p004525.html",
+   "deadline": null,
+   "first_seen": "2026-07-07",
+   "last_seen": "2026-07-07"
+  },
+  "ec3a21278c54ab2a": {
+   "id": "ec3a21278c54ab2a",
+   "source": "bunkyo-pubcome",
+   "area": "文京区",
+   "kind": "pubcome",
+   "title": "「防犯対策を推進する地区（戸崎町町会地区）の指定」についての意見募集",
+   "url": "https://www.city.bunkyo.lg.jp/b009/p000239.html",
+   "deadline": null,
+   "first_seen": "2026-07-07",
+   "last_seen": "2026-07-07"
+  },
+  "eb90867a877fe0e9": {
+   "id": "eb90867a877fe0e9",
+   "source": "bunkyo-pubcome",
+   "area": "文京区",
+   "kind": "pubcome",
+   "title": "「文京区バリアフリー基本構想（素案）」についての意見募集",
+   "url": "https://www.city.bunkyo.lg.jp/b030/p007615.html",
+   "deadline": "2026-09-09",
+   "first_seen": "2026-07-07",
+   "last_seen": "2026-07-07"
+  },
+  "28bf057e7398c91d": {
+   "id": "28bf057e7398c91d",
+   "source": "bunkyo-pubcome",
+   "area": "文京区",
+   "kind": "pubcome",
+   "title": "「（仮称）文京区若者計画（令和8年度～令和11年度）中間のまとめ」についての意見募集",
+   "url": "https://www.city.bunkyo.lg.jp/b093/p007803.html",
+   "deadline": null,
+   "first_seen": "2026-07-07",
+   "last_seen": "2026-07-07"
+  },
+  "71bedfaddce49a5e": {
+   "id": "71bedfaddce49a5e",
+   "source": "bunkyo-pubcome",
+   "area": "文京区",
+   "kind": "pubcome",
+   "title": "「文京区耐震改修促進計画（素案）」についての意見募集",
+   "url": "https://www.city.bunkyo.lg.jp/b033/p007608.html",
+   "deadline": "2026-08-02",
+   "first_seen": "2026-07-07",
+   "last_seen": "2026-07-07"
+  },
+  "a751c997d8c39f65": {
+   "id": "a751c997d8c39f65",
+   "source": "bunkyo-pubcome",
+   "area": "文京区",
+   "kind": "pubcome",
+   "title": "「文京区新型インフルエンザ等対策行動計画（素案）」についての意見募集",
+   "url": "https://www.city.bunkyo.lg.jp/b026/p003080.html",
+   "deadline": "2026-07-26",
+   "first_seen": "2026-07-07",
+   "last_seen": "2026-07-07"
+  },
+  "63778552501cb943": {
+   "id": "63778552501cb943",
+   "source": "bunkyo-pubcome",
+   "area": "文京区",
+   "kind": "pubcome",
+   "title": "令和6年度パブリックコメント手続",
+   "url": "https://www.city.bunkyo.lg.jp/b003/p006169.html",
+   "deadline": null,
+   "first_seen": "2026-07-07",
+   "last_seen": "2026-07-07"
+  },
+  "db3693ab3cc00434": {
+   "id": "db3693ab3cc00434",
+   "source": "bunkyo-pubcome",
+   "area": "文京区",
+   "kind": "pubcome",
+   "title": "令和5年度パブリックコメント手続",
+   "url": "https://www.city.bunkyo.lg.jp/b003/p008028.html",
+   "deadline": null,
+   "first_seen": "2026-07-07",
+   "last_seen": "2026-07-07"
+  },
+  "3305f47655fbef54": {
+   "id": "3305f47655fbef54",
+   "source": "bunkyo-pubcome",
+   "area": "文京区",
+   "kind": "pubcome",
+   "title": "令和4年度パブリックコメント手続",
+   "url": "https://www.city.bunkyo.lg.jp/b003/publiccoment_r4.html",
+   "deadline": null,
+   "first_seen": "2026-07-07",
+   "last_seen": "2026-07-07"
+  },
+  "be3cd85a0b80d934": {
+   "id": "be3cd85a0b80d934",
+   "source": "bunkyo-pubcome",
+   "area": "文京区",
+   "kind": "pubcome",
+   "title": "令和3年度パブリックコメント手続",
+   "url": "https://www.city.bunkyo.lg.jp/b003/p006170.html",
+   "deadline": null,
+   "first_seen": "2026-07-07",
+   "last_seen": "2026-07-07"
   }
  },
  "sources": {
   "egov-pubcome": {
    "name": "e-Gov パブリックコメント（国）",
    "area": "国",
+<<<<<<< HEAD
    "last_success": "2026-07-05T00:42:48.341832+09:00",
    "items_seen": 12,
    "fails": 7,
    "last_error": "fetch failed: https://public-comment.e-gov.go.jp/rss/pcm_list.xml"
+=======
+   "fails": 0,
+   "last_success": "2026-07-07T21:37:04.911333+09:00",
+   "items_seen": 15
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
   },
   "nerima-juran": {
    "name": "練馬区 手続中の都市計画（縦覧・意見書）",
    "area": "練馬区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:26:42.400215+09:00",
+=======
+   "last_success": "2026-07-07T21:37:06.571502+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 13
   },
   "chiyoda-pubcome": {
    "name": "千代田区 パブリックコメント",
    "area": "千代田区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:26:44.716672+09:00",
+=======
+   "last_success": "2026-07-07T21:37:08.005567+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 3
   },
   "chuo-rss": {
    "name": "中央区 新着情報RSS",
    "area": "中央区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:26:48.442289+09:00",
+=======
+   "last_success": "2026-07-07T21:37:09.523369+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 0
   },
   "minato-pubcome": {
    "name": "港区 パブリックコメント",
    "area": "港区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:26:49.161126+09:00",
+=======
+   "last_success": "2026-07-07T21:37:11.049583+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 3
   },
   "minato-juran": {
    "name": "港区 都市計画案の縦覧",
    "area": "港区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:26:50.651822+09:00",
+=======
+   "last_success": "2026-07-07T21:37:12.455240+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 8
   },
   "shinjuku-pubcome": {
    "name": "新宿区 パブリックコメント募集一覧",
    "area": "新宿区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:26:53.017957+09:00",
+=======
+   "last_success": "2026-07-07T21:37:14.037964+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 0
   },
   "shinjuku-rss": {
    "name": "新宿区 新着情報RSS",
    "area": "新宿区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:26:53.579587+09:00",
+=======
+   "last_success": "2026-07-07T21:37:15.388919+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 0
   },
   "bunkyo-pubcome": {
    "name": "文京区 パブリックコメント",
    "area": "文京区",
+<<<<<<< HEAD
    "last_success": "2026-07-05T00:43:42.289457+09:00",
    "items_seen": 0,
    "fails": 7,
    "last_error": "fetch failed: https://city.bunkyo.lg.jp/kusejoho/koho/pabukome.html"
+=======
+   "fails": 0,
+   "last_success": "2026-07-07T21:37:16.983585+09:00",
+   "items_seen": 15
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
   },
   "shinagawa-pubcome": {
    "name": "品川区 パブリックコメント",
    "area": "品川区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:26:57.726618+09:00",
+=======
+   "last_success": "2026-07-07T21:37:18.494816+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 4
   },
   "meguro-pubcome": {
    "name": "目黒区 パブリックコメント",
    "area": "目黒区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:27:01.425816+09:00",
+=======
+   "last_success": "2026-07-07T21:37:20.027771+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 5
   },
   "ota-pubcome": {
    "name": "大田区 パブリックコメント",
    "area": "大田区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:27:03.719498+09:00",
+=======
+   "last_success": "2026-07-07T21:37:21.513805+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 2
   },
   "setagaya-pubcome": {
    "name": "世田谷区 パブリックコメント",
    "area": "世田谷区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:27:07.302225+09:00",
+=======
+   "last_success": "2026-07-07T21:37:23.132275+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 4
   },
   "shibuya-pubcome": {
    "name": "渋谷区 パブリックコメント",
    "area": "渋谷区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:27:09.103503+09:00",
+=======
+   "last_success": "2026-07-07T21:37:24.766961+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 0
   },
   "suginami-pubcome": {
    "name": "杉並区 パブリックコメント",
    "area": "杉並区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:27:15.588430+09:00",
+=======
+   "last_success": "2026-07-07T21:37:25.986761+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 0
   },
   "suginami-rss": {
    "name": "杉並区 新着情報RSS（区政情報）",
    "area": "杉並区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:27:16.631011+09:00",
+=======
+   "last_success": "2026-07-07T21:37:27.464492+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 0
   },
   "toshima-pubcome": {
    "name": "豊島区 パブリックコメント",
    "area": "豊島区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:27:19.075197+09:00",
+=======
+   "last_success": "2026-07-07T21:37:29.038673+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 2
   },
   "kita-pubcome": {
    "name": "北区 パブリックコメント",
    "area": "北区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:27:20.076277+09:00",
+=======
+   "last_success": "2026-07-07T21:37:30.520724+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 6
   },
   "arakawa-pubcome": {
    "name": "荒川区 パブリックコメント",
    "area": "荒川区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:27:22.767137+09:00",
+=======
+   "last_success": "2026-07-07T21:37:31.950850+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 1
   },
   "adachi-pubcome": {
    "name": "足立区 パブリックコメント",
    "area": "足立区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:27:24.509760+09:00",
+=======
+   "last_success": "2026-07-07T21:37:33.862955+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 19
   },
   "adachi-rss": {
    "name": "足立区 新着情報RSS",
    "area": "足立区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:27:25.513703+09:00",
+=======
+   "last_success": "2026-07-07T21:37:34.951876+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 0
   },
   "katsushika-pubcome": {
    "name": "葛飾区 パブリックコメント",
    "area": "葛飾区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:27:27.023581+09:00",
+=======
+   "last_success": "2026-07-07T21:37:36.545395+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 0
   },
   "edogawa-pubcome": {
    "name": "江戸川区 パブリックコメント",
    "area": "江戸川区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:27:29.003971+09:00",
+=======
+   "last_success": "2026-07-07T21:37:37.988386+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 3
   },
   "nerima-rss": {
    "name": "練馬区 新着情報RSS",
    "area": "練馬区",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:27:31.210834+09:00",
+=======
+   "last_success": "2026-07-07T21:37:39.804395+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 0
   },
   "tokyo-pubcome": {
    "name": "東京都 意見募集",
    "area": "東京都",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:27:32.044622+09:00",
+=======
+   "last_success": "2026-07-07T21:37:41.273449+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 1
   },
   "tokyo-juran": {
    "name": "東京都 縦覧中の都市計画の案",
    "area": "東京都",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:27:33.662736+09:00",
+=======
+   "last_success": "2026-07-07T21:37:43.002059+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 0
   },
   "musashino-pubcome": {
    "name": "武蔵野市 パブリックコメント",
    "area": "武蔵野市",
    "fails": 0,
+<<<<<<< HEAD
    "last_success": "2026-07-07T17:27:34.789054+09:00",
+=======
+   "last_success": "2026-07-07T21:37:44.057352+09:00",
+>>>>>>> a26dcb1 (data update (local run: e-Gov補完))
    "items_seen": 0
   }
  }

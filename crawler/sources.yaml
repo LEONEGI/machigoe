@@ -75,10 +75,13 @@
   area: 文京区
   kind: pubcome
   type: html_list
-  url: https://city.bunkyo.lg.jp/kusejoho/koho/pabukome.html
+  url: https://www.city.bunkyo.lg.jp/b003/p006165.html
   note: >-
-    【2026-07-06】DNS解決が環境依存で不安定（Google DNSでは解決可、一部リゾルバで失敗）。
-    Actionsからも失敗が続く場合は海外IP遮断の疑い。ローカル毎朝実行での収集を正とする
+    【2026-07-07】旧URL(city.bunkyo.lg.jp/kusejoho/koho/pabukome.html)は
+    (1)裸ドメインがIPv4(A)レコードを持たずIPv6のみでgetaddrinfo失敗、
+    (2)パスも/b003/p006165.htmlへ301移転、の二重原因で失敗していた。
+    www付き・移転先URLへ更新（301追跡で200・パブコメ手続ページを確認済み）。
+    【2026-07-06】DNS解決が環境依存で不安定との記録あり（旧原因）
 
 - id: shinagawa-pubcome
   name: 品川区 パブリックコメント
