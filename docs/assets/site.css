@@ -166,6 +166,7 @@ input.mg-search::placeholder { color: var(--faint); }
 .mg-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
 .mg-card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 22px; transition: transform .18s, border-color .18s; }
 .mg-card:hover { transform: translateY(-3px); border-color: rgba(70,213,255,.4); }
+.mg-card-img { width: 100%; aspect-ratio: 1216 / 640; object-fit: cover; border-radius: 8px; margin-bottom: 14px; border: 1px solid var(--line); background: var(--bg2); }
 .mg-card .mg-tag { margin-bottom: 10px; display: inline-block; }
 .mg-card h3 { font-size: 16.5px; line-height: 1.6; }
 .mg-card h3 a { color: var(--ink); }
