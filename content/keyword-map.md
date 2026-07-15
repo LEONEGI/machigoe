@@ -30,7 +30,7 @@
 | 4 | パブリックコメントに匿名で意見は出せる？ | tokumei-iken.html | p | ✅公開済み（2026-07-14） |
 | 5 | 練馬区・東京23区のパブリックコメント・都市計画縦覧の探し方 | nerima-23ku-sagashikata.html | j | ✅公開済み（2026-07-13） |
 | 6 | 用途地域とは？自分の住むエリアが変わるときに知っておきたいこと | youto-chiiki-towa.html | j | ✅公開済み（2026-07-13） |
-| 7 | パブリックコメントに反対意見を出すときの注意点 | hantai-iken-chuiten.html | p | 未 |
+| 7 | パブリックコメントに反対意見を出すときの注意点 | hantai-iken-chuiten.html | p | ✅公開済み（2026-07-15） |
 | 8 | 道路計画・再開発の縦覧に気づく方法——住民説明会との違い | douro-saikaihatsu-juran.html | j | 未 |
 | 9 | 応募者ゼロのパブコメはどうなる？（実態と限界を誠実に） | oubosha-zero.html | p | 未 |
 | 10 | マチゴエの使い方（指名検索向け） | machigoe-no-tsukaikata.html | p | 未 |
