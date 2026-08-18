@@ -1875,7 +1875,7 @@
   "egov-pubcome": {
    "name": "e-Gov パブリックコメント（国）",
    "area": "国",
-   "fails": 15,
+   "fails": 16,
    "last_success": "2026-08-11T02:37:28.743127+09:00",
    "items_seen": 13,
    "last_error": "fetch failed: https://public-comment.e-gov.go.jp/rss/pcm_list.xml"
@@ -1884,182 +1884,182 @@
    "name": "練馬区 手続中の都市計画（縦覧・意見書）",
    "area": "練馬区",
    "fails": 0,
-   "last_success": "2026-08-18T06:26:47.061631+09:00",
+   "last_success": "2026-08-18T14:33:06.246369+09:00",
    "items_seen": 13
   },
   "chiyoda-pubcome": {
    "name": "千代田区 パブリックコメント",
    "area": "千代田区",
    "fails": 0,
-   "last_success": "2026-08-18T06:26:49.652457+09:00",
+   "last_success": "2026-08-18T14:33:07.796525+09:00",
    "items_seen": 2
   },
   "chuo-rss": {
    "name": "中央区 新着情報RSS",
    "area": "中央区",
    "fails": 0,
-   "last_success": "2026-08-18T06:26:51.500669+09:00",
+   "last_success": "2026-08-18T14:33:09.286524+09:00",
    "items_seen": 0
   },
   "minato-pubcome": {
    "name": "港区 パブリックコメント",
    "area": "港区",
    "fails": 0,
-   "last_success": "2026-08-18T06:26:52.641152+09:00",
+   "last_success": "2026-08-18T14:33:10.553492+09:00",
    "items_seen": 4
   },
   "minato-juran": {
    "name": "港区 都市計画案の縦覧",
    "area": "港区",
    "fails": 0,
-   "last_success": "2026-08-18T06:26:53.938509+09:00",
+   "last_success": "2026-08-18T14:33:12.092085+09:00",
    "items_seen": 8
   },
   "shinjuku-pubcome": {
    "name": "新宿区 パブリックコメント募集一覧",
    "area": "新宿区",
    "fails": 0,
-   "last_success": "2026-08-18T06:26:56.028505+09:00",
+   "last_success": "2026-08-18T14:33:14.139015+09:00",
    "items_seen": 0
   },
   "shinjuku-rss": {
    "name": "新宿区 新着情報RSS",
    "area": "新宿区",
    "fails": 0,
-   "last_success": "2026-08-18T06:26:56.912789+09:00",
+   "last_success": "2026-08-18T14:33:15.012742+09:00",
    "items_seen": 1
   },
   "bunkyo-pubcome": {
    "name": "文京区 パブリックコメント",
    "area": "文京区",
    "fails": 0,
-   "last_success": "2026-08-18T06:26:58.972613+09:00",
+   "last_success": "2026-08-18T14:33:17.223727+09:00",
    "items_seen": 15
   },
   "shinagawa-pubcome": {
    "name": "品川区 パブリックコメント",
    "area": "品川区",
    "fails": 0,
-   "last_success": "2026-08-18T06:27:00.880547+09:00",
+   "last_success": "2026-08-18T14:33:18.993139+09:00",
    "items_seen": 5
   },
   "meguro-pubcome": {
    "name": "目黒区 パブリックコメント",
    "area": "目黒区",
    "fails": 0,
-   "last_success": "2026-08-18T06:27:03.256444+09:00",
+   "last_success": "2026-08-18T14:33:20.751758+09:00",
    "items_seen": 5
   },
   "ota-pubcome": {
    "name": "大田区 パブリックコメント",
    "area": "大田区",
    "fails": 0,
-   "last_success": "2026-08-18T06:27:05.612821+09:00",
+   "last_success": "2026-08-18T14:33:22.234041+09:00",
    "items_seen": 2
   },
   "setagaya-pubcome": {
    "name": "世田谷区 パブリックコメント",
    "area": "世田谷区",
    "fails": 0,
-   "last_success": "2026-08-18T06:27:07.228942+09:00",
+   "last_success": "2026-08-18T14:33:24.558678+09:00",
    "items_seen": 4
   },
   "shibuya-pubcome": {
    "name": "渋谷区 パブリックコメント",
    "area": "渋谷区",
    "fails": 0,
-   "last_success": "2026-08-18T06:27:08.594036+09:00",
+   "last_success": "2026-08-18T14:33:25.953195+09:00",
    "items_seen": 0
   },
   "suginami-pubcome": {
    "name": "杉並区 パブリックコメント",
    "area": "杉並区",
    "fails": 0,
-   "last_success": "2026-08-18T06:27:10.718460+09:00",
+   "last_success": "2026-08-18T14:33:27.840060+09:00",
    "items_seen": 0
   },
   "suginami-rss": {
    "name": "杉並区 新着情報RSS（区政情報）",
    "area": "杉並区",
    "fails": 0,
-   "last_success": "2026-08-18T06:27:11.350635+09:00",
+   "last_success": "2026-08-18T14:33:28.999859+09:00",
    "items_seen": 0
   },
   "toshima-pubcome": {
    "name": "豊島区 パブリックコメント",
    "area": "豊島区",
    "fails": 0,
-   "last_success": "2026-08-18T06:27:13.176123+09:00",
+   "last_success": "2026-08-18T14:33:30.721249+09:00",
    "items_seen": 2
   },
   "kita-pubcome": {
    "name": "北区 パブリックコメント",
    "area": "北区",
    "fails": 0,
-   "last_success": "2026-08-18T06:27:14.461233+09:00",
+   "last_success": "2026-08-18T14:33:31.999931+09:00",
    "items_seen": 6
   },
   "arakawa-pubcome": {
    "name": "荒川区 パブリックコメント",
    "area": "荒川区",
    "fails": 0,
-   "last_success": "2026-08-18T06:27:16.134337+09:00",
+   "last_success": "2026-08-18T14:33:33.818903+09:00",
    "items_seen": 1
   },
   "adachi-pubcome": {
    "name": "足立区 パブリックコメント",
    "area": "足立区",
    "fails": 0,
-   "last_success": "2026-08-18T06:27:17.616273+09:00",
+   "last_success": "2026-08-18T14:33:35.301485+09:00",
    "items_seen": 19
   },
   "adachi-rss": {
    "name": "足立区 新着情報RSS",
    "area": "足立区",
    "fails": 0,
-   "last_success": "2026-08-18T06:27:18.797330+09:00",
+   "last_success": "2026-08-18T14:33:36.473169+09:00",
    "items_seen": 0
   },
   "katsushika-pubcome": {
    "name": "葛飾区 パブリックコメント",
    "area": "葛飾区",
    "fails": 0,
-   "last_success": "2026-08-18T06:27:20.427770+09:00",
+   "last_success": "2026-08-18T14:33:37.967551+09:00",
    "items_seen": 0
   },
   "edogawa-pubcome": {
    "name": "江戸川区 パブリックコメント",
    "area": "江戸川区",
    "fails": 0,
-   "last_success": "2026-08-18T06:27:22.133227+09:00",
+   "last_success": "2026-08-18T14:33:40.964401+09:00",
    "items_seen": 3
   },
   "nerima-rss": {
    "name": "練馬区 新着情報RSS",
    "area": "練馬区",
    "fails": 0,
-   "last_success": "2026-08-18T06:27:24.132780+09:00",
+   "last_success": "2026-08-18T14:33:41.832809+09:00",
    "items_seen": 0
   },
   "tokyo-pubcome": {
    "name": "東京都 意見募集",
    "area": "東京都",
    "fails": 0,
-   "last_success": "2026-08-18T06:27:25.112060+09:00",
+   "last_success": "2026-08-18T14:33:43.263373+09:00",
    "items_seen": 1
   },
   "tokyo-juran": {
    "name": "東京都 縦覧中の都市計画の案",
    "area": "東京都",
    "fails": 0,
-   "last_success": "2026-08-18T06:27:26.961743+09:00",
+   "last_success": "2026-08-18T14:33:44.537809+09:00",
    "items_seen": 0
   },
   "musashino-pubcome": {
    "name": "武蔵野市 パブリックコメント",
    "area": "武蔵野市",
    "fails": 0,
-   "last_success": "2026-08-18T06:27:27.862077+09:00",
+   "last_success": "2026-08-18T14:33:45.702723+09:00",
    "items_seen": 0
   }
  }
