@@ -1803,13 +1803,35 @@
    "deadline": "2026-11-16",
    "first_seen": "2026-10-16",
    "last_seen": "2026-10-19"
+  },
+  "fc8a221dc3f6fdfd": {
+   "id": "fc8a221dc3f6fdfd",
+   "source": "nerima-juran",
+   "area": "練馬区",
+   "kind": "juran",
+   "title": "区内で特殊詐欺が多発しています",
+   "url": "https://www.city.nerima.tokyo.jp/kurashi/bosai/bohan/20230317_.html",
+   "deadline": null,
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19"
+  },
+  "33e8fec4d42dbe12": {
+   "id": "33e8fec4d42dbe12",
+   "source": "chuo-rss",
+   "area": "中央区",
+   "kind": "mixed",
+   "title": "新たな中央区基本計画に関する意見募集",
+   "url": "https://www.city.chuo.lg.jp/a0001/kusei/kousoukeikaku/kihonkeikaku/ikennboshuu.html",
+   "deadline": "2026-11-15",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19"
   }
  },
  "sources": {
   "egov-pubcome": {
    "name": "e-Gov パブリックコメント（国）",
    "area": "国",
-   "fails": 138,
+   "fails": 139,
    "last_success": "2026-08-11T02:37:28.743127+09:00",
    "items_seen": 13,
    "last_error": "fetch failed: https://public-comment.e-gov.go.jp/rss/pcm_list.xml"
@@ -1818,182 +1840,182 @@
    "name": "練馬区 手続中の都市計画（縦覧・意見書）",
    "area": "練馬区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:06.236253+09:00",
-   "items_seen": 12
+   "last_success": "2026-10-19T19:35:54.102161+09:00",
+   "items_seen": 13
   },
   "chiyoda-pubcome": {
    "name": "千代田区 パブリックコメント",
    "area": "千代田区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:09.080701+09:00",
+   "last_success": "2026-10-19T19:35:57.251226+09:00",
    "items_seen": 1
   },
   "chuo-rss": {
    "name": "中央区 新着情報RSS",
    "area": "中央区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:11.455721+09:00",
-   "items_seen": 0
+   "last_success": "2026-10-19T19:36:00.567867+09:00",
+   "items_seen": 1
   },
   "minato-pubcome": {
    "name": "港区 パブリックコメント",
    "area": "港区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:12.438515+09:00",
+   "last_success": "2026-10-19T19:36:02.235156+09:00",
    "items_seen": 5
   },
   "minato-juran": {
    "name": "港区 都市計画案の縦覧",
    "area": "港区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:14.005864+09:00",
+   "last_success": "2026-10-19T19:36:03.557155+09:00",
    "items_seen": 8
   },
   "shinjuku-pubcome": {
    "name": "新宿区 パブリックコメント募集一覧",
    "area": "新宿区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:15.363799+09:00",
+   "last_success": "2026-10-19T19:36:05.920547+09:00",
    "items_seen": 0
   },
   "shinjuku-rss": {
    "name": "新宿区 新着情報RSS",
    "area": "新宿区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:16.810453+09:00",
+   "last_success": "2026-10-19T19:36:06.528599+09:00",
    "items_seen": 1
   },
   "bunkyo-pubcome": {
    "name": "文京区 パブリックコメント",
    "area": "文京区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:19.156424+09:00",
+   "last_success": "2026-10-19T19:36:09.102026+09:00",
    "items_seen": 15
   },
   "shinagawa-pubcome": {
    "name": "品川区 パブリックコメント",
    "area": "品川区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:23.059678+09:00",
+   "last_success": "2026-10-19T19:36:12.145896+09:00",
    "items_seen": 4
   },
   "meguro-pubcome": {
    "name": "目黒区 パブリックコメント",
    "area": "目黒区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:25.095002+09:00",
+   "last_success": "2026-10-19T19:36:15.977024+09:00",
    "items_seen": 5
   },
   "ota-pubcome": {
    "name": "大田区 パブリックコメント",
    "area": "大田区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:27.311904+09:00",
-   "items_seen": 5
+   "last_success": "2026-10-19T19:36:18.433679+09:00",
+   "items_seen": 4
   },
   "setagaya-pubcome": {
    "name": "世田谷区 パブリックコメント",
    "area": "世田谷区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:29.038336+09:00",
+   "last_success": "2026-10-19T19:36:21.290020+09:00",
    "items_seen": 4
   },
   "shibuya-pubcome": {
    "name": "渋谷区 パブリックコメント",
    "area": "渋谷区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:30.508231+09:00",
+   "last_success": "2026-10-19T19:36:22.911593+09:00",
    "items_seen": 0
   },
   "suginami-pubcome": {
    "name": "杉並区 パブリックコメント",
    "area": "杉並区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:33.491770+09:00",
+   "last_success": "2026-10-19T19:36:25.644099+09:00",
    "items_seen": 0
   },
   "suginami-rss": {
    "name": "杉並区 新着情報RSS（区政情報）",
    "area": "杉並区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:34.741933+09:00",
+   "last_success": "2026-10-19T19:36:26.401766+09:00",
    "items_seen": 0
   },
   "toshima-pubcome": {
    "name": "豊島区 パブリックコメント",
    "area": "豊島区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:36.604534+09:00",
+   "last_success": "2026-10-19T19:36:28.467849+09:00",
    "items_seen": 2
   },
   "kita-pubcome": {
    "name": "北区 パブリックコメント",
    "area": "北区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:37.877370+09:00",
+   "last_success": "2026-10-19T19:36:29.428502+09:00",
    "items_seen": 6
   },
   "arakawa-pubcome": {
    "name": "荒川区 パブリックコメント",
    "area": "荒川区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:39.655959+09:00",
+   "last_success": "2026-10-19T19:36:31.459213+09:00",
    "items_seen": 3
   },
   "adachi-pubcome": {
    "name": "足立区 パブリックコメント",
    "area": "足立区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:41.231661+09:00",
+   "last_success": "2026-10-19T19:36:34.308917+09:00",
    "items_seen": 22
   },
   "adachi-rss": {
    "name": "足立区 新着情報RSS",
    "area": "足立区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:42.397513+09:00",
+   "last_success": "2026-10-19T19:36:34.889763+09:00",
    "items_seen": 0
   },
   "katsushika-pubcome": {
    "name": "葛飾区 パブリックコメント",
    "area": "葛飾区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:43.933171+09:00",
+   "last_success": "2026-10-19T19:36:37.104616+09:00",
    "items_seen": 0
   },
   "edogawa-pubcome": {
    "name": "江戸川区 パブリックコメント",
    "area": "江戸川区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:45.746099+09:00",
+   "last_success": "2026-10-19T19:36:39.875796+09:00",
    "items_seen": 3
   },
   "nerima-rss": {
    "name": "練馬区 新着情報RSS",
    "area": "練馬区",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:47.670554+09:00",
+   "last_success": "2026-10-19T19:36:41.127279+09:00",
    "items_seen": 0
   },
   "tokyo-pubcome": {
    "name": "東京都 意見募集",
    "area": "東京都",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:48.820373+09:00",
+   "last_success": "2026-10-19T19:36:42.382840+09:00",
    "items_seen": 1
   },
   "tokyo-juran": {
    "name": "東京都 縦覧中の都市計画の案",
    "area": "東京都",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:50.346915+09:00",
+   "last_success": "2026-10-19T19:36:44.045125+09:00",
    "items_seen": 0
   },
   "musashino-pubcome": {
    "name": "武蔵野市 パブリックコメント",
    "area": "武蔵野市",
    "fails": 0,
-   "last_success": "2026-10-19T07:50:51.445894+09:00",
+   "last_success": "2026-10-19T19:36:45.280461+09:00",
    "items_seen": 0
   }
  }
