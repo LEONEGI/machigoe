@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-21T18:54:50.196833+09:00",
+ "generated_at": "2026-10-22T08:55:56.091305+09:00",
  "sources": {
   "egov-pubcome": {
    "name": "e-Gov パブリックコメント（国）",
    "area": "国",
-   "fails": 143,
+   "fails": 144,
    "last_success": "2026-08-11T02:37:28.743127+09:00",
    "items_seen": 13,
    "last_error": "fetch failed: https://public-comment.e-gov.go.jp/rss/pcm_list.xml"
@@ -13,182 +13,182 @@
    "name": "練馬区 手続中の都市計画（縦覧・意見書）",
    "area": "練馬区",
    "fails": 0,
-   "last_success": "2026-10-21T18:53:58.794332+09:00",
+   "last_success": "2026-10-22T08:55:07.487806+09:00",
    "items_seen": 13
   },
   "chiyoda-pubcome": {
    "name": "千代田区 パブリックコメント",
    "area": "千代田区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:02.071423+09:00",
+   "last_success": "2026-10-22T08:55:09.659720+09:00",
    "items_seen": 2
   },
   "chuo-rss": {
    "name": "中央区 新着情報RSS",
    "area": "中央区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:05.008629+09:00",
+   "last_success": "2026-10-22T08:55:12.754759+09:00",
    "items_seen": 1
   },
   "minato-pubcome": {
    "name": "港区 パブリックコメント",
    "area": "港区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:05.999521+09:00",
+   "last_success": "2026-10-22T08:55:13.611426+09:00",
    "items_seen": 5
   },
   "minato-juran": {
    "name": "港区 都市計画案の縦覧",
    "area": "港区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:07.377027+09:00",
+   "last_success": "2026-10-22T08:55:14.948625+09:00",
    "items_seen": 8
   },
   "shinjuku-pubcome": {
    "name": "新宿区 パブリックコメント募集一覧",
    "area": "新宿区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:09.610078+09:00",
+   "last_success": "2026-10-22T08:55:17.151856+09:00",
    "items_seen": 0
   },
   "shinjuku-rss": {
    "name": "新宿区 新着情報RSS",
    "area": "新宿区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:10.302971+09:00",
+   "last_success": "2026-10-22T08:55:17.909772+09:00",
    "items_seen": 1
   },
   "bunkyo-pubcome": {
    "name": "文京区 パブリックコメント",
    "area": "文京区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:14.402177+09:00",
+   "last_success": "2026-10-22T08:55:21.362571+09:00",
    "items_seen": 7
   },
   "shinagawa-pubcome": {
    "name": "品川区 パブリックコメント",
    "area": "品川区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:16.392008+09:00",
+   "last_success": "2026-10-22T08:55:22.540019+09:00",
    "items_seen": 2
   },
   "meguro-pubcome": {
    "name": "目黒区 パブリックコメント",
    "area": "目黒区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:19.989168+09:00",
+   "last_success": "2026-10-22T08:55:26.444068+09:00",
    "items_seen": 5
   },
   "ota-pubcome": {
    "name": "大田区 パブリックコメント",
    "area": "大田区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:22.143635+09:00",
+   "last_success": "2026-10-22T08:55:28.463086+09:00",
    "items_seen": 4
   },
   "setagaya-pubcome": {
    "name": "世田谷区 パブリックコメント",
    "area": "世田谷区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:25.342539+09:00",
+   "last_success": "2026-10-22T08:55:31.028864+09:00",
    "items_seen": 4
   },
   "shibuya-pubcome": {
    "name": "渋谷区 パブリックコメント",
    "area": "渋谷区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:26.611531+09:00",
+   "last_success": "2026-10-22T08:55:32.523384+09:00",
    "items_seen": 0
   },
   "suginami-pubcome": {
    "name": "杉並区 パブリックコメント",
    "area": "杉並区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:30.424239+09:00",
+   "last_success": "2026-10-22T08:55:36.053717+09:00",
    "items_seen": 0
   },
   "suginami-rss": {
    "name": "杉並区 新着情報RSS（区政情報）",
    "area": "杉並区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:31.441896+09:00",
+   "last_success": "2026-10-22T08:55:37.060133+09:00",
    "items_seen": 0
   },
   "toshima-pubcome": {
    "name": "豊島区 パブリックコメント",
    "area": "豊島区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:33.488684+09:00",
+   "last_success": "2026-10-22T08:55:39.888293+09:00",
    "items_seen": 2
   },
   "kita-pubcome": {
    "name": "北区 パブリックコメント",
    "area": "北区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:34.805102+09:00",
+   "last_success": "2026-10-22T08:55:40.999783+09:00",
    "items_seen": 6
   },
   "arakawa-pubcome": {
    "name": "荒川区 パブリックコメント",
    "area": "荒川区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:36.798965+09:00",
+   "last_success": "2026-10-22T08:55:43.164463+09:00",
    "items_seen": 3
   },
   "adachi-pubcome": {
    "name": "足立区 パブリックコメント",
    "area": "足立区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:39.831617+09:00",
+   "last_success": "2026-10-22T08:55:44.995816+09:00",
    "items_seen": 22
   },
   "adachi-rss": {
    "name": "足立区 新着情報RSS",
    "area": "足立区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:40.210170+09:00",
+   "last_success": "2026-10-22T08:55:46.021725+09:00",
    "items_seen": 0
   },
   "katsushika-pubcome": {
    "name": "葛飾区 パブリックコメント",
    "area": "葛飾区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:41.737941+09:00",
+   "last_success": "2026-10-22T08:55:47.694303+09:00",
    "items_seen": 0
   },
   "edogawa-pubcome": {
    "name": "江戸川区 パブリックコメント",
    "area": "江戸川区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:44.912309+09:00",
+   "last_success": "2026-10-22T08:55:49.776326+09:00",
    "items_seen": 3
   },
   "nerima-rss": {
    "name": "練馬区 新着情報RSS",
    "area": "練馬区",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:46.273259+09:00",
+   "last_success": "2026-10-22T08:55:52.243084+09:00",
    "items_seen": 0
   },
   "tokyo-pubcome": {
    "name": "東京都 意見募集",
    "area": "東京都",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:47.671370+09:00",
+   "last_success": "2026-10-22T08:55:53.348687+09:00",
    "items_seen": 1
   },
   "tokyo-juran": {
    "name": "東京都 縦覧中の都市計画の案",
    "area": "東京都",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:49.052867+09:00",
+   "last_success": "2026-10-22T08:55:54.607988+09:00",
    "items_seen": 0
   },
   "musashino-pubcome": {
    "name": "武蔵野市 パブリックコメント",
    "area": "武蔵野市",
    "fails": 0,
-   "last_success": "2026-10-21T18:54:50.195288+09:00",
+   "last_success": "2026-10-22T08:55:56.089642+09:00",
    "items_seen": 0
   }
  },
@@ -246,7 +246,7 @@
    "url": "https://www.city.adachi.tokyo.jp/senryaku/bosai/saigaijinotoirekakuhokannrikeikaku.html",
    "deadline": "2026-08-31",
    "first_seen": "2026-09-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "9ddbd17ad16f1c9a",
@@ -257,7 +257,7 @@
    "url": "https://www.city.nerima.tokyo.jp/kusei/machi/toshikeikakuzu/toshikeikaku/shimoshaku_gennan.html",
    "deadline": "2026-09-01",
    "first_seen": "2026-09-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "c416b8d7d8eefc2f",
@@ -268,7 +268,7 @@
    "url": "https://www.city.nerima.tokyo.jp/kusei/machi/toshikeikakuzu/toshikeikaku/nagakubo_gennan.html",
    "deadline": "2026-09-01",
    "first_seen": "2026-09-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "147ebf73fabeb798",
@@ -279,7 +279,7 @@
    "url": "https://www.city.nerima.tokyo.jp/kusei/machi/toshikeikakuzu/toshikeikaku/hikawadai_gennan.html",
    "deadline": "2026-09-01",
    "first_seen": "2026-09-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "d8e24a42b9280cc7",
@@ -290,7 +290,7 @@
    "url": "https://www.city.nerima.tokyo.jp/kusei/machi/toshikeikakuzu/toshikeikaku/156_gennan.html",
    "deadline": "2026-09-01",
    "first_seen": "2026-09-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "7da704cdf0a8f5ed",
@@ -565,7 +565,7 @@
    "url": "https://www.city.ota.tokyo.jp/kuseijoho/publiccomment/publiccomment_bosyu/oomori_seibikeikaku_pc.html",
    "deadline": "2026-09-24",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "f16263cab1e5613e",
@@ -598,7 +598,7 @@
    "url": "https://www.city.adachi.tokyo.jp/kyoikushido/ijimepubliccomment.html",
    "deadline": "2026-09-30",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "24e54600a704bc3c",
@@ -609,7 +609,7 @@
    "url": "https://www.city.adachi.tokyo.jp/sesaku/202608kugikai.html",
    "deadline": "2026-09-30",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "e642d47aed9a429c",
@@ -631,7 +631,7 @@
    "url": "https://www.city.minato.tokyo.jp/kouchoutan/pubcom.html",
    "deadline": "2026-10-14",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "7fd6e260111e1147",
@@ -675,7 +675,7 @@
    "url": "https://www.city.minato.tokyo.jp/jinken/hanzai/pabukome.html",
    "deadline": "2026-10-30",
    "first_seen": "2026-09-30",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "55b6bef1c1876ee0",
@@ -697,7 +697,7 @@
    "url": "https://www.city.chiyoda.lg.jp/koho/kuse/sankaku-kyodo/p-comment/2026/20261020.html",
    "deadline": "2026-11-02",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "8fb2e4aa5207e526",
@@ -708,7 +708,7 @@
    "url": "https://www.city.ota.tokyo.jp/kuseijoho/publiccomment/publiccomment_bosyu/20261013_chihouzei-fuka_hyouka.html",
    "deadline": "2026-11-12",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "7aab53dde0e0ca51",
@@ -719,7 +719,7 @@
    "url": "http://www.city.shinjuku.lg.jp/seikatsu/kotsu01_20211015.html",
    "deadline": "2026-11-13",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "33e8fec4d42dbe12",
@@ -730,7 +730,7 @@
    "url": "https://www.city.chuo.lg.jp/a0001/kusei/kousoukeikaku/kihonkeikaku/ikennboshuu.html",
    "deadline": "2026-11-15",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "0b26a494ab8e133e",
@@ -741,7 +741,7 @@
    "url": "https://www.city.adachi.tokyo.jp/kaigo/10kipubcom.html",
    "deadline": "2026-11-16",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "dedfcef292f25dc0",
@@ -752,7 +752,7 @@
    "url": "https://www.city.arakawa.tokyo.jp/a010/news/publiccommentr802.html",
    "deadline": "2027-01-03",
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "ed3f8869294adddc",
@@ -763,7 +763,7 @@
    "url": "https://www.city.arakawa.tokyo.jp/a012/public/20260719_zenkoumokuhyoukasyo.html",
    "deadline": "2027-01-03",
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "062ada8e969a9352",
@@ -807,7 +807,7 @@
    "url": "https://www.city.nerima.tokyo.jp/kusei/machi/toshikeikakuzu/toshikeikaku/jyuten_gaikan2.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "1ad6e06fa11d7617",
@@ -818,7 +818,7 @@
    "url": "https://www.city.nerima.tokyo.jp/kusei/machi/toshikeikakuzu/ichiran/index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "6ced93f0c91946af",
@@ -851,7 +851,7 @@
    "url": "https://www.city.nerima.tokyo.jp/aboutweb/mitsukaranaitoki.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "5cf6a03bdef86415",
@@ -862,7 +862,7 @@
    "url": "https://www.city.nerima.tokyo.jp/aboutweb/index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "3d2b7b37df322fa0",
@@ -873,7 +873,7 @@
    "url": "https://www.city.nerima.tokyo.jp/aboutweb/accessibilitypolicy/index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "476f5e01a160d1e4",
@@ -884,7 +884,7 @@
    "url": "https://www.city.nerima.tokyo.jp/shisetsu/ku/ku/about.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "ed17a15d910081c0",
@@ -895,7 +895,7 @@
    "url": "https://www.city.nerima.tokyo.jp/index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "ec12820424e75304",
@@ -939,7 +939,7 @@
    "url": "https://www.city.minato.tokyo.jp/kuse/kocho/index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "f88d9a7d6e5bf5b4",
@@ -950,7 +950,7 @@
    "url": "https://www.city.minato.tokyo.jp/kouchou/kuse/kocho/kuseiken/shisaku.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "0b814e9f73b0291f",
@@ -961,7 +961,7 @@
    "url": "https://www.city.minato.tokyo.jp/kouchou/kuse/kocho/kuseiken/shuryo.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "b9f854e9130ebad0",
@@ -972,7 +972,7 @@
    "url": "https://www.city.minato.tokyo.jp/kankyo-machi/toshikekaku/index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "029656686f160d48",
@@ -983,7 +983,7 @@
    "url": "https://www.city.minato.tokyo.jp/kuse/kocho/faq/kankyo-machi/toshikekaku/index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "f5f299c87104d95a",
@@ -994,7 +994,7 @@
    "url": "https://www.city.minato.tokyo.jp/kouchou/kuse/kocho/faq/index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "81f50648e939ce8e",
@@ -1005,7 +1005,7 @@
    "url": "https://www.city.minato.tokyo.jp/kankyo-machi/toshikekaku/kekaku/02-machidukuri-index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "beeb0ebe2966fe44",
@@ -1016,7 +1016,7 @@
    "url": "https://www.city.minato.tokyo.jp/kankyo-machi/toshikekaku/kekaku/02-youtochiiki-index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "06b208a21753d29f",
@@ -1027,7 +1027,7 @@
    "url": "https://www.city.minato.tokyo.jp/kankyo-machi/toshikekaku/kekaku/02-tosikeikakudouro-index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "ce69e08d8ac8e67e",
@@ -1038,7 +1038,7 @@
    "url": "https://www.city.minato.tokyo.jp/toshikeikaku/toshikeikakugaiyo/ttoshikeikakugaiyo.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "2d517f2979bba36d",
@@ -1049,7 +1049,7 @@
    "url": "https://www.city.minato.tokyo.jp/toshikeikaku/17jou_setumeikai/tamatiekinisigutiekimaetiku.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "e6594950eaa1deaa",
@@ -1104,7 +1104,7 @@
    "url": "https://www.city.meguro.tokyo.jp/kikakukeiei/kusei/kouchou/pabukomeyoukousoan.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "f753ba507b87fd8c",
@@ -1115,7 +1115,7 @@
    "url": "https://www.city.meguro.tokyo.jp/kikakukeiei/kusei/kouchou/yoko.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "904c03a7f9feb24b",
@@ -1126,7 +1126,7 @@
    "url": "https://www.city.meguro.tokyo.jp/kusei/kouchou/publiccomment/boshu/index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "26a1c76619df325d",
@@ -1137,7 +1137,7 @@
    "url": "https://www.city.meguro.tokyo.jp/kusei/kouchou/publiccomment/shuuryou/index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "f7fa6fbf8b44251f",
@@ -1148,7 +1148,7 @@
    "url": "https://www.city.meguro.tokyo.jp/kusei/kouchou/publiccomment/sonota/index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "722a1f1d77039751",
@@ -1159,7 +1159,7 @@
    "url": "https://www.city.ota.tokyo.jp/kuseijoho/publiccomment/nagare.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "c4ab23f566d5272d",
@@ -1170,7 +1170,7 @@
    "url": "https://www.city.setagaya.lg.jp/index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "8158a5603790a8cf",
@@ -1181,7 +1181,7 @@
    "url": "https://www.city.setagaya.lg.jp/kuseijouhou/kuseisanka/category/11962.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "ca845b4d34f5874d",
@@ -1192,7 +1192,7 @@
    "url": "https://www.city.setagaya.lg.jp/02002/7779.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "82198a98b39a3e7d",
@@ -1203,7 +1203,7 @@
    "url": "https://www.city.setagaya.lg.jp/02002/7778.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "8f56dce26b967e06",
@@ -1214,7 +1214,7 @@
    "url": "https://www.city.toshima.lg.jp/kuse/iken/index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "6075391363d14d5a",
@@ -1225,7 +1225,7 @@
    "url": "https://www.city.toshima.lg.jp/016/kuse/iken/publiccomment/006692.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "1f98c4ee07ee2519",
@@ -1236,7 +1236,7 @@
    "url": "https://www.city.kita.lg.jp/city-information/feedback/1014238/1014240.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "20c556982f16084d",
@@ -1247,7 +1247,7 @@
    "url": "https://www.city.kita.lg.jp/city-information/feedback/1014238/1014241.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "c73ce646889822e1",
@@ -1258,7 +1258,7 @@
    "url": "https://www.city.kita.lg.jp/city-information/feedback/1014238/1026096/index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "14a265ec38098ab9",
@@ -1269,7 +1269,7 @@
    "url": "https://www.city.kita.lg.jp/city-information/feedback/1014238/1019605/index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "8a9cea1fcc76dc6e",
@@ -1280,7 +1280,7 @@
    "url": "https://www.city.kita.lg.jp/city-information/feedback/1014238/1018394/index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "e28243947696caee",
@@ -1291,7 +1291,7 @@
    "url": "https://www.city.kita.lg.jp/city-information/feedback/1014238/1014242/index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "46f2ee76c239064f",
@@ -1302,7 +1302,7 @@
    "url": "https://www.city.arakawa.tokyo.jp/kouhou/publiccomment/boshu/index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "a2558024565d983b",
@@ -1313,7 +1313,7 @@
    "url": "https://www.city.adachi.tokyo.jp/sesaku/ku/mado/p-com-nagare.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "04296dc776a32402",
@@ -1324,7 +1324,7 @@
    "url": "https://www.city.adachi.tokyo.jp/documents/219/p-comment-jirei.pdf",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "bb5aa658159ed9c9",
@@ -1335,7 +1335,7 @@
    "url": "https://www.city.adachi.tokyo.jp/k-hinkon/kodomowakamonokeikaku-comment.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "1381018a350d7ae8",
@@ -1346,7 +1346,7 @@
    "url": "https://www.city.adachi.tokyo.jp/g-shien/20250525paburiccoment.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "0e7713a8bbd0d22a",
@@ -1357,7 +1357,7 @@
    "url": "https://www.city.adachi.tokyo.jp/kodomo-unei/071121paburikkukomennto.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "cf65dadf7da59889",
@@ -1379,7 +1379,7 @@
    "url": "https://www.city.adachi.tokyo.jp/senryaku/petguideline.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "0d2467c12a2edf60",
@@ -1390,7 +1390,7 @@
    "url": "https://www.city.adachi.tokyo.jp/toshi/universal_design_publiccomment_rokucho.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "27468df506a81c33",
@@ -1401,7 +1401,7 @@
    "url": "https://www.city.adachi.tokyo.jp/saigai/saigaitaisakujoreikaisei.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "c0cc1593383fb2fb",
@@ -1412,7 +1412,7 @@
    "url": "https://www.city.adachi.tokyo.jp/machizukuri/shakaishihon_jigo.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "0e92c57ba33943cb",
@@ -1423,7 +1423,7 @@
    "url": "https://www.city.adachi.tokyo.jp/zaisan/koumanepabukome.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "c152853369a0c8a5",
@@ -1434,7 +1434,7 @@
    "url": "https://www.city.adachi.tokyo.jp/kotsu/koukyoukoutuukeikaku_pabukome.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "214f32128a20800c",
@@ -1445,7 +1445,7 @@
    "url": "https://www.city.adachi.tokyo.jp/sesaku/publiccomment_kihonkeikaku.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "0ccccafc1fc8057b",
@@ -1456,7 +1456,7 @@
    "url": "https://www.city.adachi.tokyo.jp/machizukuri/higashiguchichikumachi.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "032545842cecac37",
@@ -1467,7 +1467,7 @@
    "url": "https://www.city.adachi.tokyo.jp/k-shinsa/pabukome_sokusinkeikaku.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "6db081a2bf5dc5ce",
@@ -1489,7 +1489,7 @@
    "url": "https://www.city.adachi.tokyo.jp/kotsu/jikatsu_pabukome2.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "4357ac4e43bfd08c",
@@ -1511,7 +1511,7 @@
    "url": "https://www.city.adachi.tokyo.jp/somu/dai2jijinkenshishin-publiccomment.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "710becc5271823bf",
@@ -1522,7 +1522,7 @@
    "url": "https://www.city.edogawa.tokyo.jp/documents/10674/tetsuzuki3.pdf",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "d6d995723053ef8e",
@@ -1533,7 +1533,7 @@
    "url": "https://www.city.edogawa.tokyo.jp/kuseijoho/kohokocho/publiccomment/koubo/index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "a52a83677b3f07e5",
@@ -1544,7 +1544,7 @@
    "url": "https://www.city.edogawa.tokyo.jp/kuseijoho/index.html",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "7e56077a2b49359c",
@@ -1555,7 +1555,7 @@
    "url": "https://www.metro.tokyo.lg.jp/search?keyword=&purpose=163050",
    "deadline": null,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "bc85d3dbbb0be7a9",
@@ -1566,7 +1566,7 @@
    "url": "https://www.city.bunkyo.lg.jp/kuseijouhou/kouhou/publiccomment/index.html",
    "deadline": null,
    "first_seen": "2026-07-08",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "2a66dae819fe9bd2",
@@ -1577,7 +1577,7 @@
    "url": "https://www.city.bunkyo.lg.jp/b003/p006166.html",
    "deadline": null,
    "first_seen": "2026-07-08",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "b49353dad0077963",
@@ -1643,7 +1643,7 @@
    "url": "https://www.city.bunkyo.lg.jp/b003/p006169.html",
    "deadline": null,
    "first_seen": "2026-07-08",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "db3693ab3cc00434",
@@ -1654,7 +1654,7 @@
    "url": "https://www.city.bunkyo.lg.jp/b003/p008028.html",
    "deadline": null,
    "first_seen": "2026-07-08",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "3305f47655fbef54",
@@ -1665,7 +1665,7 @@
    "url": "https://www.city.bunkyo.lg.jp/b003/publiccoment_r4.html",
    "deadline": null,
    "first_seen": "2026-07-08",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "be3cd85a0b80d934",
@@ -1676,7 +1676,7 @@
    "url": "https://www.city.bunkyo.lg.jp/b003/p006170.html",
    "deadline": null,
    "first_seen": "2026-07-08",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "966211c6b576353d",
@@ -1687,7 +1687,7 @@
    "url": "https://www.city.chiyoda.lg.jp/koho/kuse/sankaku-kyodo/p-comment/2026/20260706.html",
    "deadline": null,
    "first_seen": "2026-07-23",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "346c41c4a6472605",
@@ -1698,7 +1698,7 @@
    "url": "https://www.city.adachi.tokyo.jp/s-shinko/1205public.html",
    "deadline": null,
    "first_seen": "2026-08-26",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "cc835f6faed5e874",
@@ -1786,7 +1786,7 @@
    "url": "https://www.city.adachi.tokyo.jp/ze/20260727pabcome.html",
    "deadline": null,
    "first_seen": "2026-09-11",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "aaa443861da679f3",
@@ -1819,7 +1819,7 @@
    "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/kansensho/seasonal_influenza.html",
    "deadline": null,
    "first_seen": "2026-09-18",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "69efdb5be5399ec5",
@@ -1951,7 +1951,7 @@
    "url": "https://www.city.ota.tokyo.jp/kuseijoho/publiccomment/publiccomment_bosyu/jyuumindaichou_hyouka.html",
    "deadline": null,
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "0bd351c19a02b58d",
@@ -1973,7 +1973,7 @@
    "url": "https://www.city.nerima.tokyo.jp/kurashi/bosai/bohan/20230317_.html",
    "deadline": null,
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "54dc824bae0eee2a",
@@ -1984,7 +1984,7 @@
    "url": "https://www.city.shinagawa.tokyo.jp/_res/projects/default_project/_page_/001/006/650/index_1054.pdf",
    "deadline": null,
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "5141b472697f261b",
@@ -1995,7 +1995,7 @@
    "url": "https://www.city.shinagawa.tokyo.jp/_res/projects/default_project/_page_/001/006/650/index_38.txt",
    "deadline": null,
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "id": "516c471b27c38767",
@@ -2006,7 +2006,7 @@
    "url": "https://www.city.bunkyo.lg.jp/b003/p008292.html",
    "deadline": null,
    "first_seen": "2026-10-21",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   }
  ]
 }
