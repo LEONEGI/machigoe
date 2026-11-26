@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-26T12:23:59.828533+09:00",
+ "generated_at": "2026-11-26T23:51:08.451453+09:00",
  "failing": [
   {
    "id": "egov-pubcome",
    "name": "e-Gov パブリックコメント（国）",
    "area": "国",
-   "fails": 214,
+   "fails": 215,
    "last_error": "fetch failed: https://public-comment.e-gov.go.jp/rss/pcm_list.xml",
    "last_success": "2026-08-11T02:37:28.743127+09:00"
   }
